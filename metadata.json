@@ -1,0 +1,6 @@
+{
+  "name": "MDlabs",
+  "description": "An interactive onboarding funnel and display platform for discovering and creating the latest trending image generation prompts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
