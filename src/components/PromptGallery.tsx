@@ -23,6 +23,40 @@ import {
   X
 } from 'lucide-react';
 
+const gridVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.04,
+      delayChildren: 0.02
+    }
+  }
+};
+
+const cardVariants = {
+  hidden: { 
+    opacity: 0, 
+    y: 16
+  },
+  visible: { 
+    opacity: 1, 
+    y: 0,
+    transition: {
+      type: "spring",
+      stiffness: 110,
+      damping: 14
+    }
+  },
+  exit: { 
+    opacity: 0, 
+    scale: 0.95,
+    transition: {
+      duration: 0.15
+    }
+  }
+};
+
 interface PromptGalleryProps {
   answers: UserAnswers;
   onReset: () => void;
@@ -38,14 +72,14 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
 
   // Pagination State
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 5;
+  const itemsPerPage = selectedCategory === 'AI Wallpapers' ? 24 : 12;
 
   // Form state
   const [showAddForm, setShowAddForm] = useState(false);
   const [newTitle, setNewTitle] = useState('');
   const [newPromptText, setNewPromptText] = useState('');
   const [newImageUrl, setNewImageUrl] = useState('');
-  const [newCategory, setNewCategory] = useState('Photorealistic');
+  const [newCategory, setNewCategory] = useState('Cinematic Portraits');
   const [newTags, setNewTags] = useState('');
 
   // Toast notifications for clipboard copies
@@ -127,7 +161,7 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
     setNewTitle('');
     setNewPromptText('');
     setNewImageUrl('');
-    setNewCategory('Photorealistic');
+    setNewCategory('Cinematic Portraits');
     setNewTags('');
     setShowAddForm(false);
   };
@@ -173,11 +207,25 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
   };
 
   // Categorization
-  const categories = ['All', 'Photorealistic', 'Anime / Digital Art', '3D Design', 'Sci-Fi / Cyberpunk', 'Minimalist Logo'];
+  const categories = [
+    'All',
+    'AI Wallpapers',
+    'Cinematic Portraits',
+    'AI Fantasy Art',
+    'Couple & Love Aesthetic',
+    'Travel & Nature',
+    'Luxury Lifestyle',
+    'Motivational & Success',
+    'Devotional & Spiritual',
+    'Viral Poster Designs',
+    'Food Photography',
+    'Future & Sci-Fi'
+  ];
 
   const filteredPrompts = prompts.filter(p => {
     const matchesSearch = p.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                          p.promptText.toLowerCase().includes(searchQuery.toLowerCase());
+                          p.promptText.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                          p.tags.some(t => t.toLowerCase().includes(searchQuery.toLowerCase()));
     const matchesCategory = selectedCategory === 'All' || p.category === selectedCategory;
     return matchesSearch && matchesCategory;
   });
@@ -212,15 +260,7 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
-            <button
-              onClick={() => setShowAddForm(!showAddForm)}
-              className="flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-sm px-4 py-2.5 rounded-xl transition shadow-xs cursor-pointer"
-            >
-              <Plus className="w-4 h-4" />
-              <span>Add Your Image & Prompt</span>
-            </button>
-          </div>
+          {/* Action button removed per user request */}
         </div>
       </header>
 
@@ -289,11 +329,17 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
                         value={newCategory}
                         onChange={(e) => setNewCategory(e.target.value)}
                       >
-                        <option value="Photorealistic">Photorealistic</option>
-                        <option value="Anime / Digital Art">Anime / Digital Art</option>
-                        <option value="3D Design">3D Design</option>
-                        <option value="Sci-Fi / Cyberpunk">Sci-Fi / Cyberpunk</option>
-                        <option value="Minimalist Logo">Minimalist Logo</option>
+                        <option value="AI Wallpapers">AI Wallpapers</option>
+                        <option value="Cinematic Portraits">Cinematic Portraits</option>
+                        <option value="AI Fantasy Art">AI Fantasy Art</option>
+                        <option value="Couple & Love Aesthetic">Couple & Love Aesthetic</option>
+                        <option value="Travel & Nature">Travel & Nature</option>
+                        <option value="Luxury Lifestyle">Luxury Lifestyle</option>
+                        <option value="Motivational & Success">Motivational & Success</option>
+                        <option value="Devotional & Spiritual">Devotional & Spiritual</option>
+                        <option value="Viral Poster Designs">Viral Poster Designs</option>
+                        <option value="Food Photography">Food Photography</option>
+                        <option value="Future & Sci-Fi">Future & Sci-Fi</option>
                       </select>
                     </div>
                   </div>
@@ -405,7 +451,7 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
             </h3>
             
             <p className="text-slate-500 text-sm max-w-md mx-auto mt-2 leading-relaxed">
-              No custom prompts are active. Use the <strong className="text-indigo-600 font-semibold">&quot;Add Your Image & Prompt&quot;</strong> button above to populate your workspace with custom images and text.
+              No matching prompts were found. Try searching for other keywords, tags, or categories above.
             </p>
 
             {/* Aesthetic outline grid showing expected future items */}
@@ -431,21 +477,25 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
         ) : (
           <div className="space-y-8">
             {/* Staggered Prompt Cards Grid once populated */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <motion.div 
+              key={`${safeCurrentPage}-${selectedCategory}-${searchQuery}`}
+              variants={gridVariants}
+              initial="hidden"
+              animate="visible"
+              className={`grid ${selectedCategory === 'AI Wallpapers' ? 'grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4' : 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'}`}
+            >
               <AnimatePresence mode="popLayout">
                 {paginatedPrompts.map((p) => (
                   <motion.div
                     key={p.id}
                     layoutId={p.id}
-                    initial={{ opacity: 0, y: 12 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, scale: 0.95 }}
+                    variants={cardVariants}
                     className="bg-white border border-slate-100 rounded-2xl overflow-hidden shadow-xs hover:shadow-md transition-all duration-300 flex flex-col group"
                   >
                     {/* Aspect-card Image section */}
                     <div 
                       onClick={() => p.imageUrl && setSelectedPreviewImage(p)}
-                      className={`relative aspect-video w-full overflow-hidden bg-slate-100 flex items-center justify-center transition-all ${p.imageUrl ? 'cursor-zoom-in active:scale-[0.99] group-hover:brightness-95' : ''}`}
+                      className={`relative ${p.category === 'AI Wallpapers' ? 'aspect-[9/16]' : 'aspect-video'} w-full overflow-hidden bg-slate-100 flex items-center justify-center transition-all ${p.imageUrl ? 'cursor-zoom-in active:scale-[0.99] group-hover:brightness-95' : ''}`}
                       title={p.imageUrl ? "Click to expand image" : ""}
                     >
                       {p.imageUrl ? (
@@ -496,53 +546,57 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
                     </div>
 
                     {/* Text Details & Interactive Action block */}
-                    <div className="p-4 flex-1 flex flex-col justify-between">
+                    <div className={`${p.category === 'AI Wallpapers' ? 'p-3' : 'p-4'} flex-1 flex flex-col justify-between`}>
                       <div>
                         {/* Sub-tags */}
-                        <div className="flex flex-wrap gap-1 mb-3">
-                          {p.tags.map((tag) => (
-                            <span key={tag} className="text-[10px] bg-slate-50 border border-slate-100 text-slate-500 py-0.5 px-2 rounded-md">
-                              #{tag}
-                            </span>
-                          ))}
-                        </div>
+                        {p.category !== 'AI Wallpapers' && (
+                          <div className="flex flex-wrap gap-1 mb-3">
+                            {p.tags.map((tag) => (
+                              <span key={tag} className="text-[10px] bg-slate-50 border border-slate-100 text-slate-500 py-0.5 px-2 rounded-md">
+                                #{tag}
+                              </span>
+                            ))}
+                          </div>
+                        )}
 
                         {/* Prompt area */}
-                        <div className="bg-slate-50 rounded-xl p-3 border border-slate-100 relative group/prompt hover:bg-slate-100/50 transition duration-200 min-h-[72px] flex flex-col justify-center">
-                          <span className="text-[9px] font-mono tracking-wider font-semibold text-indigo-500 block mb-1 font-sans">
-                            PROMPT STRUCTURE:
-                          </span>
-                          {p.promptText ? (
-                            <p className="font-mono text-[11px] text-slate-700 leading-relaxed max-h-24 overflow-y-auto break-words select-all">
-                              {p.promptText}
-                            </p>
-                          ) : (
-                            <p className="font-mono text-[10px] text-slate-400 italic">
-                              Empty Prompt Slot
-                            </p>
-                          )}
-                          
-                          <button
-                            onClick={() => handleCopyToClipboard(p.id, p.promptText)}
-                            className="absolute bottom-2 right-2 p-1.5 rounded-lg bg-white border border-slate-200 shadow-xs hover:shadow-sm text-slate-500 hover:text-slate-800 transition flex items-center gap-1 cursor-pointer"
-                          >
-                            {copiedId === p.id ? (
-                              <>
-                                <Check className="w-3.5 h-3.5 text-emerald-500" />
-                                <span className="text-[9px] font-semibold text-emerald-600">Copied</span>
-                              </>
+                        {p.category !== 'AI Wallpapers' && (
+                          <div className="bg-slate-50 rounded-xl p-3 border border-slate-100 relative group/prompt hover:bg-slate-100/50 transition duration-200 min-h-[72px] flex flex-col justify-center">
+                            <span className="text-[9px] font-mono tracking-wider font-semibold text-indigo-500 block mb-1 font-sans">
+                              PROMPT STRUCTURE:
+                            </span>
+                            {p.promptText ? (
+                              <p className="font-mono text-[11px] text-slate-700 leading-relaxed max-h-24 overflow-y-auto break-words select-all">
+                                {p.promptText}
+                              </p>
                             ) : (
-                              <>
-                                <Copy className="w-3.5 h-3.5" />
-                                <span className="text-[9px] font-semibold">Copy Formula</span>
-                              </>
+                              <p className="font-mono text-[10px] text-slate-400 italic">
+                                Empty Prompt Slot
+                              </p>
                             )}
-                          </button>
-                        </div>
+                            
+                            <button
+                              onClick={() => handleCopyToClipboard(p.id, p.promptText)}
+                              className="absolute bottom-2 right-2 p-1.5 rounded-lg bg-white border border-slate-200 shadow-xs hover:shadow-sm text-slate-500 hover:text-slate-800 transition flex items-center gap-1 cursor-pointer"
+                            >
+                              {copiedId === p.id ? (
+                                <>
+                                  <Check className="w-3.5 h-3.5 text-emerald-500" />
+                                  <span className="text-[9px] font-semibold text-emerald-600">Copied</span>
+                                </>
+                              ) : (
+                                <>
+                                  <Copy className="w-3.5 h-3.5" />
+                                  <span className="text-[9px] font-semibold">Copy Formula</span>
+                                </>
+                              )}
+                            </button>
+                          </div>
+                        )}
                       </div>
 
                       {/* Footer social stats */}
-                      <div className="flex items-center justify-between mt-4 pt-3 border-t border-slate-100">
+                      <div className={`flex items-center justify-between ${p.category === 'AI Wallpapers' ? 'mt-1 pt-2' : 'mt-4 pt-3'} border-t border-slate-100`}>
                         <button
                           onClick={(e) => handleLikePrompt(p.id, e)}
                           className="flex items-center gap-1.5 text-xs font-semibold text-slate-500 hover:text-pink-600 transition cursor-pointer"
@@ -561,7 +615,7 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
                   </motion.div>
                 ))}
               </AnimatePresence>
-            </div>
+            </motion.div>
 
             {/* Downward Page numbers Pagination bar */}
             {totalPages > 1 && (
@@ -661,7 +715,7 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
                   {selectedPreviewImage.title}
                 </h3>
                 
-                {selectedPreviewImage.promptText ? (
+                {selectedPreviewImage.category !== 'AI Wallpapers' && selectedPreviewImage.promptText ? (
                   <div className="mt-3 text-left">
                     <span className="text-[9px] font-mono tracking-wider font-semibold text-slate-400 block mb-1">
                       COPYABLE FORMULA:
@@ -670,9 +724,9 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
                       {selectedPreviewImage.promptText}
                     </p>
                   </div>
-                ) : (
+                ) : selectedPreviewImage.category !== 'AI Wallpapers' ? (
                   <p className="text-xs text-slate-400 italic mt-2">No prompt formula registered for this reference image</p>
-                )}
+                ) : null}
               </div>
             </motion.div>
           </motion.div>

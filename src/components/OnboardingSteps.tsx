@@ -5,7 +5,6 @@ import {
   MapPin, 
   User, 
   ChevronRight, 
-  TrendingUp, 
   Flame, 
   Instagram, 
   Youtube, 
@@ -32,34 +31,7 @@ export default function OnboardingSteps({
   onNextStep,
   onSetStep,
 }: OnboardingStepsProps) {
-  const [bootProgress, setBootProgress] = useState(0);
-  const [bootStageText, setBootStageText] = useState('Initializing prompt database...');
 
-  // Boot sequence animation
-  useEffect(() => {
-    if (currentStep !== 'BOOT') return;
-
-    const interval = setInterval(() => {
-      setBootProgress((prev) => {
-        if (prev >= 100) {
-          clearInterval(interval);
-          setTimeout(() => {
-            onSetStep('SOURCE_QUESTION');
-          }, 300);
-          return 100;
-        }
-
-        // Change text based on progress
-        if (prev === 20) setBootStageText('Caching trending midjourney prompts...');
-        if (prev === 50) setBootStageText('Analyzing viral stable diffusion vectors...');
-        if (prev === 80) setBootStageText('Finalizing aesthetic display parameters...');
-
-        return prev + 4;
-      });
-    }, 60);
-
-    return () => clearInterval(interval);
-  }, [currentStep, onSetStep]);
 
   // Questions and options setup
   const sourceOptions = [
@@ -106,64 +78,8 @@ export default function OnboardingSteps({
   return (
     <div className="w-full max-w-4xl mx-auto min-h-screen flex flex-col justify-center items-center py-6 px-4">
       <AnimatePresence mode="wait">
-        {/* ==================== 1. BOOT STEP ==================== */}
-        {currentStep === 'BOOT' && (
-          <motion.div
-            key="boot"
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0, scale: 1.05 }}
-            transition={{ duration: 0.4 }}
-            className="flex flex-col items-center justify-center text-center max-w-lg p-8 bg-white/70 backdrop-blur-md border border-slate-100 rounded-2xl shadow-xl w-full"
-          >
-            {/* Pulsing visual core */}
-            <div className="relative w-28 h-28 mb-8 flex items-center justify-center">
-              <div className="absolute inset-0 rounded-full border-4 border-slate-100"></div>
-              <svg className="absolute inset-0 w-full h-full transform -rotate-90">
-                <circle
-                  cx="56"
-                  cy="56"
-                  r="52"
-                  className="stroke-violet-600 fill-none"
-                  strokeWidth="6"
-                  strokeDasharray={2 * Math.PI * 52}
-                  strokeDashoffset={2 * Math.PI * 52 * (1 - bootProgress / 100)}
-                  strokeLinecap="round"
-                />
-              </svg>
-              <div className="absolute inset-2 bg-gradient-to-br from-violet-500 to-indigo-600 rounded-full flex items-center justify-center text-white shadow-lg shadow-indigo-200">
-                <TrendingUp className="w-10 h-10 animate-bounce" />
-              </div>
-            </div>
-
-            <h1 className="text-3xl font-extrabold bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent tracking-tight leading-none mb-2 select-none">
-              MDlabs
-            </h1>
-            <p className="text-sm font-medium text-slate-500 mb-6 font-mono uppercase tracking-widest">
-              Aesthetic Onboarding
-            </p>
-
-            {/* Progress bar info */}
-            <div className="w-full bg-slate-100 rounded-full h-2 overflow-hidden mb-3">
-              <div 
-                className="bg-indigo-600 h-full rounded-full transition-all duration-75"
-                style={{ width: `${bootProgress}%` }}
-              ></div>
-            </div>
-
-            {/* Seamless minimalist status feedback */}
-            <p className="text-xs font-semibold text-slate-500/80 mb-6 font-mono tracking-tight animate-pulse">
-              {bootStageText}
-            </p>
-            
-            <p className="text-xs text-slate-400 font-medium">
-              VITE RUNTIME &bull; DEVELOPER DEMO SYSTEM
-            </p>
-          </motion.div>
-        )}
-
-        {/* ==================== 2. SURVEY STEPS ==================== */}
-        {currentStep !== 'BOOT' && currentStep !== 'PROMPT_GALLERY' && (
+        {/* ==================== SURVEY STEPS ==================== */}
+        {currentStep !== 'PROMPT_GALLERY' && (
           <motion.div
             key={currentStep}
             initial={{ opacity: 0, x: 25 }}

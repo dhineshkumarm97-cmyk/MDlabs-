@@ -1,0 +1,5482 @@
+[
+  {
+    "id": "prompt-seed-1",
+    "title": "Rain Mood Portrait",
+    "promptText": "Ultra cinematic portrait of a young Indian man standing in rain under neon lights, wet hair, dramatic shadows, realistic skin texture, shallow depth of field, teal and orange color grading, movie poster style",
+    "imageUrl": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 154,
+    "tags": [
+      "portrait",
+      "rain",
+      "neon",
+      "realistic"
+    ]
+  },
+  {
+    "id": "prompt-seed-2",
+    "title": "Royal Saree Look",
+    "promptText": "Elegant South Indian woman in silk saree with temple jewelry, jasmine flowers in hair, golden sunset lighting, ultra realistic photography, luxury aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1615180611055-6bbf716fa604?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 167,
+    "tags": [
+      "saree",
+      "traditional",
+      "sunset",
+      "royal"
+    ]
+  },
+  {
+    "id": "prompt-seed-3",
+    "title": "Street Fashion Edit",
+    "promptText": "Stylish teenager walking in futuristic Chennai street, oversized hoodie, sneakers, cyberpunk lights, cinematic atmosphere, highly detailed",
+    "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 142,
+    "tags": [
+      "fashion",
+      "streetwear",
+      "chennai",
+      "cyberpunk"
+    ]
+  },
+  {
+    "id": "prompt-seed-4",
+    "title": "Black & White Attitude Shot",
+    "promptText": "High contrast monochrome portrait of confident young man wearing sunglasses and leather jacket, studio shadows, fashion magazine style",
+    "imageUrl": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 139,
+    "tags": [
+      "monochrome",
+      "portrait",
+      "leather-jacket",
+      "sunglasses"
+    ]
+  },
+  {
+    "id": "prompt-seed-5",
+    "title": "Mirror Selfie Aesthetic",
+    "promptText": "Trendy mirror selfie of stylish girl in modern room with LED lights, cozy aesthetic, realistic photography, Instagram influencer vibe",
+    "imageUrl": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 148,
+    "tags": [
+      "selfie",
+      "instagram",
+      "modern",
+      "aesthetic"
+    ]
+  },
+  {
+    "id": "prompt-seed-6",
+    "title": "Fire Warrior",
+    "promptText": "Epic fantasy warrior surrounded by flames, glowing eyes, cinematic armor, dark fantasy world, ultra detailed",
+    "imageUrl": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 171,
+    "tags": [
+      "fantasy",
+      "warrior",
+      "flames",
+      "dark-fantasy"
+    ]
+  },
+  {
+    "id": "prompt-seed-7",
+    "title": "Angel Wings Portrait",
+    "promptText": "Beautiful girl with giant glowing angel wings in cloudy heaven, dreamy fantasy art, golden light rays",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 183,
+    "tags": [
+      "angel",
+      "wings",
+      "heaven",
+      "dreamy"
+    ]
+  },
+  {
+    "id": "prompt-seed-8",
+    "title": "Samurai in Rain",
+    "promptText": "Lone samurai standing in heavy rain at night, neon reflections, Japanese cyberpunk city, cinematic composition",
+    "imageUrl": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 195,
+    "tags": [
+      "samurai",
+      "rain",
+      "cyberpunk",
+      "japan"
+    ]
+  },
+  {
+    "id": "prompt-seed-9",
+    "title": "Dragon Rider",
+    "promptText": "Young hero riding massive dragon above mountains during sunset, fantasy movie style, highly detailed clouds",
+    "imageUrl": "https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 164,
+    "tags": [
+      "dragon",
+      "rider",
+      "sunset",
+      "mountains"
+    ]
+  },
+  {
+    "id": "prompt-seed-10",
+    "title": "Ice Queen",
+    "promptText": "Elegant ice queen sitting on frozen throne, glowing blue dress, magical snow particles, cinematic fantasy artwork",
+    "imageUrl": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 156,
+    "tags": [
+      "ice",
+      "queen",
+      "throne",
+      "magical"
+    ]
+  },
+  {
+    "id": "prompt-seed-11",
+    "title": "Sunset Couple Silhouette",
+    "promptText": "Romantic silhouette of couple holding hands at beach sunset, warm orange sky, dreamy atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 212,
+    "tags": [
+      "romance",
+      "sunset",
+      "silhouette",
+      "beach"
+    ]
+  },
+  {
+    "id": "prompt-seed-12",
+    "title": "Traditional Couple Shoot",
+    "promptText": "South Indian couple in traditional outfits, temple background, cinematic wedding photography style",
+    "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 198,
+    "tags": [
+      "traditional",
+      "couple",
+      "temple",
+      "wedding"
+    ]
+  },
+  {
+    "id": "prompt-seed-13",
+    "title": "Rain Romance",
+    "promptText": "Cute couple sharing umbrella in rainy city street, cinematic lights, emotional movie scene",
+    "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 188,
+    "tags": [
+      "rain",
+      "romance",
+      "umbrella",
+      "city"
+    ]
+  },
+  {
+    "id": "prompt-seed-14",
+    "title": "Coffee Date Vibe",
+    "promptText": "Young couple laughing in cozy cafe, warm lighting, candid Instagram aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 174,
+    "tags": [
+      "coffee",
+      "date",
+      "cafe",
+      "candid"
+    ]
+  },
+  {
+    "id": "prompt-seed-15",
+    "title": "Bike Ride Love Scene",
+    "promptText": "Romantic bike ride through mountain road during golden hour, cinematic travel photography",
+    "imageUrl": "https://images.unsplash.com/photo-1611016186353-9af58c69a533?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 192,
+    "tags": [
+      "bike-ride",
+      "mountain",
+      "golden-hour",
+      "travel"
+    ]
+  },
+  {
+    "id": "prompt-seed-16",
+    "title": "Kerala Backwaters",
+    "promptText": "Beautiful Kerala backwaters with houseboat during sunrise, misty atmosphere, ultra realistic travel photography",
+    "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 245,
+    "tags": [
+      "kerala",
+      "backwaters",
+      "houseboat",
+      "sunrise"
+    ]
+  },
+  {
+    "id": "prompt-seed-17",
+    "title": "Mountain Adventure",
+    "promptText": "Young traveler standing on mountain cliff with backpack, dramatic clouds, adventure aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 222,
+    "tags": [
+      "mountain",
+      "adventure",
+      "backpack",
+      "traveler"
+    ]
+  },
+  {
+    "id": "prompt-seed-18",
+    "title": "Tropical Island Drone Shot",
+    "promptText": "Aerial view of tropical island with crystal blue water, cinematic vacation vibe",
+    "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 218,
+    "tags": [
+      "aerial",
+      "tropical",
+      "island",
+      "ocean"
+    ]
+  },
+  {
+    "id": "prompt-seed-19",
+    "title": "Forest Cabin Mood",
+    "promptText": "Cozy wooden cabin in deep forest during rain, warm lights glowing through windows",
+    "imageUrl": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 234,
+    "tags": [
+      "cabin",
+      "forest",
+      "rain",
+      "cozy"
+    ]
+  },
+  {
+    "id": "prompt-seed-20",
+    "title": "Desert Sunset",
+    "promptText": "Golden desert dunes during sunset with lone traveler silhouette, cinematic wide shot",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5edd0cd9?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 205,
+    "tags": [
+      "desert",
+      "sunset",
+      "dunes",
+      "silhouette"
+    ]
+  },
+  {
+    "id": "prompt-seed-21",
+    "title": "Luxury Car Shoot",
+    "promptText": "Matte black sports car parked under neon city lights at night, cinematic reflections, luxury aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf0a3?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 256,
+    "tags": [
+      "car",
+      "sports-car",
+      "neon",
+      "luxury"
+    ]
+  },
+  {
+    "id": "prompt-seed-22",
+    "title": "Private Jet Lifestyle",
+    "promptText": "Fashion influencer near private jet, luxury outfit, sunset airport photography",
+    "imageUrl": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 242,
+    "tags": [
+      "private-jet",
+      "influencer",
+      "airport",
+      "fashion"
+    ]
+  },
+  {
+    "id": "prompt-seed-23",
+    "title": "Modern Penthouse",
+    "promptText": "Luxury penthouse interior with city skyline view, modern aesthetic, warm ambient lights",
+    "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 239,
+    "tags": [
+      "penthouse",
+      "skyline",
+      "modern",
+      "interior"
+    ]
+  },
+  {
+    "id": "prompt-seed-24",
+    "title": "Watch Close-Up",
+    "promptText": "Luxury gold watch macro shot with dramatic shadows, premium advertisement style",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 228,
+    "tags": [
+      "watch",
+      "gold",
+      "macro",
+      "luxe"
+    ]
+  },
+  {
+    "id": "prompt-seed-25",
+    "title": "Rich Vacation Mood",
+    "promptText": "Luxury infinity pool overlooking ocean during sunset, tropical luxury aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 265,
+    "tags": [
+      "infinity-pool",
+      "ocean-view",
+      "sunset",
+      "resort"
+    ]
+  },
+  {
+    "id": "prompt-seed-26",
+    "title": "Hustle Mood",
+    "promptText": "Young entrepreneur working late night with laptop and city lights, motivational cinematic look",
+    "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=60",
+    "category": "Motivational & Success",
+    "likes": 188,
+    "tags": [
+      "hustle",
+      "entrepreneur",
+      "laptop",
+      "late-work"
+    ]
+  },
+  {
+    "id": "prompt-seed-27",
+    "title": "Gym Transformation",
+    "promptText": "Powerful fitness athlete in dramatic gym lighting, sweat details, intense cinematic mood",
+    "imageUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&auto=format&fit=crop&q=60",
+    "category": "Motivational & Success",
+    "likes": 198,
+    "tags": [
+      "fitness",
+      "gym",
+      "athlete",
+      "motivation"
+    ]
+  },
+  {
+    "id": "prompt-seed-28",
+    "title": "Winner Celebration",
+    "promptText": "Champion raising trophy under stadium lights, emotional cinematic sports photography",
+    "imageUrl": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop&q=60",
+    "category": "Motivational & Success",
+    "likes": 212,
+    "tags": [
+      "winner",
+      "trophy",
+      "stadium",
+      "sports"
+    ]
+  },
+  {
+    "id": "prompt-seed-29",
+    "title": "Dream Big Concept",
+    "promptText": "Young boy looking at futuristic city skyline with glowing ambitions, inspirational digital art",
+    "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=60",
+    "category": "Motivational & Success",
+    "likes": 204,
+    "tags": [
+      "ambition",
+      "dream",
+      "skyline",
+      "inspiration"
+    ]
+  },
+  {
+    "id": "prompt-seed-30",
+    "title": "CEO Aesthetic",
+    "promptText": "Confident businessman in luxury office with skyline background, cinematic professional portrait",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800&auto=format&fit=crop&q=60",
+    "category": "Motivational & Success",
+    "likes": 195,
+    "tags": [
+      "ceo",
+      "businessman",
+      "office",
+      "professional"
+    ]
+  },
+  {
+    "id": "prompt-seed-31",
+    "title": "Lord Murugan Divine Art",
+    "promptText": "Divine Lord Murugan standing on hill with glowing vel, dramatic clouds, devotional cinematic artwork",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 315,
+    "tags": [
+      "murugan",
+      "divine",
+      "vel",
+      "spiritual"
+    ]
+  },
+  {
+    "id": "prompt-seed-32",
+    "title": "Temple Festival",
+    "promptText": "Grand South Indian temple festival with lights, devotees, traditional decorations, cinematic realism",
+    "imageUrl": "https://images.unsplash.com/photo-1545128485-c400e7702796?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 282,
+    "tags": [
+      "festival",
+      "temple",
+      "india",
+      "devotees"
+    ]
+  },
+  {
+    "id": "prompt-seed-33",
+    "title": "Meditation Scene",
+    "promptText": "Peaceful monk meditating in mountains during sunrise, spiritual cinematic atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1545128485-c400e7702796?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 264,
+    "tags": [
+      "meditation",
+      "monk",
+      "peace",
+      "mountains"
+    ]
+  },
+  {
+    "id": "prompt-seed-34",
+    "title": "Shiva Cosmic Art",
+    "promptText": "Powerful Lord Shiva cosmic artwork with galaxy background, glowing trishul, ultra detailed",
+    "imageUrl": "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 342,
+    "tags": [
+      "shiva",
+      "cosmic",
+      "galaxy",
+      "spiritual"
+    ]
+  },
+  {
+    "id": "prompt-seed-35",
+    "title": "Deepam Glow",
+    "promptText": "Traditional oil lamps glowing in dark temple, warm spiritual aesthetic photography",
+    "imageUrl": "https://images.unsplash.com/photo-1519074069444-1ba12565b172?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 275,
+    "tags": [
+      "deepam",
+      "diya",
+      "temple",
+      "lamps"
+    ]
+  },
+  {
+    "id": "prompt-seed-36",
+    "title": "Torn Paper Poster",
+    "promptText": "Modern torn paper collage poster featuring stylish portrait, cinematic shadows, magazine layout aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=800&auto=format&fit=crop&q=60",
+    "category": "Viral Poster Designs",
+    "likes": 184,
+    "tags": [
+      "collage",
+      "torn-paper",
+      "poster",
+      "editorial"
+    ]
+  },
+  {
+    "id": "prompt-seed-37",
+    "title": "Neon Typography Poster",
+    "promptText": "Cyberpunk neon poster with glowing text effects and futuristic city background",
+    "imageUrl": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=800&auto=format&fit=crop&q=60",
+    "category": "Viral Poster Designs",
+    "likes": 198,
+    "tags": [
+      "neon",
+      "typography",
+      "cyberpunk",
+      "glow"
+    ]
+  },
+  {
+    "id": "prompt-seed-38",
+    "title": "Vintage Film Poster",
+    "promptText": "Retro 90s Tamil movie poster aesthetic with dramatic hero pose and grain texture",
+    "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&auto=format&fit=crop&q=60",
+    "category": "Viral Poster Designs",
+    "likes": 215,
+    "tags": [
+      "vintage",
+      "tamil-movie",
+      "90s",
+      "retro"
+    ]
+  },
+  {
+    "id": "prompt-seed-39",
+    "title": "Dual Tone Edit",
+    "promptText": "Creative red and blue dual-tone portrait lighting, modern Instagram edit style",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=60",
+    "category": "Viral Poster Designs",
+    "likes": 179,
+    "tags": [
+      "dual-tone",
+      "lighting",
+      "contrast",
+      "edit"
+    ]
+  },
+  {
+    "id": "prompt-seed-40",
+    "title": "Minimal Black Poster",
+    "promptText": "Minimal luxury black and gold poster design with dramatic portrait lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&auto=format&fit=crop&q=60",
+    "category": "Viral Poster Designs",
+    "likes": 193,
+    "tags": [
+      "black-gold",
+      "luxury",
+      "minimal",
+      "graphic"
+    ]
+  },
+  {
+    "id": "prompt-seed-41",
+    "title": "Street Food Shot",
+    "promptText": "Indian street food close-up with steam, cinematic lighting, ultra realistic food photography",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=60",
+    "category": "Food Photography",
+    "likes": 218,
+    "tags": [
+      "street-food",
+      "steam",
+      "chaat",
+      "desi"
+    ]
+  },
+  {
+    "id": "prompt-seed-42",
+    "title": "Dessert Aesthetic",
+    "promptText": "Luxury chocolate dessert with golden spoon, macro food photography, soft lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=60",
+    "category": "Food Photography",
+    "likes": 226,
+    "tags": [
+      "dessert",
+      "chocolate",
+      "luxury",
+      "macro"
+    ]
+  },
+  {
+    "id": "prompt-seed-43",
+    "title": "Coffee Cinematic",
+    "promptText": "Moody coffee cup beside rainy window, cozy aesthetic, cinematic photography",
+    "imageUrl": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=800&auto=format&fit=crop&q=60",
+    "category": "Food Photography",
+    "likes": 214,
+    "tags": [
+      "coffee",
+      "moody",
+      "rainy",
+      "window"
+    ]
+  },
+  {
+    "id": "prompt-seed-44",
+    "title": "Traditional Feast",
+    "promptText": "South Indian banana leaf feast, vibrant colors, festive food photography",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=60",
+    "category": "Food Photography",
+    "likes": 252,
+    "tags": [
+      "feast",
+      "banana-leaf",
+      "south-indian",
+      "vibrant"
+    ]
+  },
+  {
+    "id": "prompt-seed-45",
+    "title": "Burger Commercial Style",
+    "promptText": "Juicy burger splash shot with dramatic lighting, advertisement quality food photography",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=60",
+    "category": "Food Photography",
+    "likes": 221,
+    "tags": [
+      "burger",
+      "commercial",
+      "splash",
+      "ad"
+    ]
+  },
+  {
+    "id": "prompt-seed-46",
+    "title": "AI Human Portrait",
+    "promptText": "Futuristic AI human with glowing circuits, cyberpunk lighting, ultra detailed sci-fi portrait",
+    "imageUrl": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 239,
+    "tags": [
+      "cyborg",
+      "robotics",
+      "circuits",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": "prompt-seed-47",
+    "title": "Flying Cars City",
+    "promptText": "Futuristic Indian city with flying cars and neon skyscrapers, cinematic sci-fi world",
+    "imageUrl": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf0a3?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 247,
+    "tags": [
+      "flying-cars",
+      "skyscrapers",
+      "neon",
+      "future"
+    ]
+  },
+  {
+    "id": "prompt-seed-48",
+    "title": "Space Explorer",
+    "promptText": "Astronaut standing on alien planet with giant galaxy sky, cinematic sci-fi artwork",
+    "imageUrl": "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 268,
+    "tags": [
+      "astronaut",
+      "alien-planet",
+      "galaxy",
+      "space"
+    ]
+  },
+  {
+    "id": "prompt-seed-49",
+    "title": "Robot Companion",
+    "promptText": "Cute futuristic robot walking beside teenager in neon street, emotional sci-fi scene",
+    "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 232,
+    "tags": [
+      "robot",
+      "companion",
+      "neon",
+      "friendship"
+    ]
+  },
+  {
+    "id": "prompt-seed-50",
+    "title": "Digital Universe",
+    "promptText": "Human silhouette inside glowing digital universe made of data particles and cosmic energy, ultra cinematic",
+    "imageUrl": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 255,
+    "tags": [
+      "digital",
+      "universe",
+      "particles",
+      "cosmic"
+    ]
+  },
+  {
+    "id": "prompt-seed-51",
+    "title": "Neon Rain Street Portrait",
+    "promptText": "Ultra realistic cinematic portrait of a stylish young Indian man standing alone on a rainy street in Chennai at midnight, wearing a black oversized hoodie and silver chain, wet messy hair, glowing neon shop signs reflecting on the wet road, blue and magenta cyberpunk lighting, dramatic shadows, shallow depth of field, realistic skin texture, moody atmosphere, captured on Sony A7R IV, 85mm lens, movie poster composition, ultra HD, Instagram trending aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 322,
+    "tags": [
+      "portrait",
+      "rain",
+      "neon",
+      "cyberpunk",
+      "chennai"
+    ]
+  },
+  {
+    "id": "prompt-seed-52",
+    "title": "Royal South Indian Queen",
+    "promptText": "Beautiful South Indian queen sitting on an ancient golden throne inside a palace hall, wearing an emerald green silk saree with heavy temple jewelry, jasmine flowers in braided hair, glowing oil lamps around the hall, cinematic golden lighting, rich red background curtains, ultra detailed embroidery, realistic royal expression, majestic atmosphere, hyper realistic photography",
+    "imageUrl": "https://images.unsplash.com/photo-1615180611055-6bbf716fa604?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 345,
+    "tags": [
+      "queen",
+      "royal",
+      "temple-jewelry",
+      "saree",
+      "palace"
+    ]
+  },
+  {
+    "id": "prompt-seed-53",
+    "title": "Futuristic Tamil Nadu City",
+    "promptText": "Massive futuristic Chennai city in the year 2090 with flying cars, hologram advertisements written in Tamil, giant skyscrapers glowing in blue neon lights, rainy futuristic roads, cyberpunk mood, ultra detailed sci-fi atmosphere, cinematic aerial drone view, realistic reflections, dramatic clouds, Blade Runner inspired aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 298,
+    "tags": [
+      "future",
+      "cyberpunk",
+      "chennai",
+      "hologram",
+      "metro"
+    ]
+  },
+  {
+    "id": "prompt-seed-54",
+    "title": "Luxury Black Car Photoshoot",
+    "promptText": "Matte black Lamborghini parked under neon lights in a rainy underground parking garage, cinematic reflections on wet floor, aggressive car angle, red and blue lighting, luxury atmosphere, smoke effects, ultra realistic automotive photography, sharp details, high contrast shadows, premium Instagram edit style",
+    "imageUrl": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 412,
+    "tags": [
+      "lamborghini",
+      "sports-car",
+      "neon",
+      "garage",
+      "smoke"
+    ]
+  },
+  {
+    "id": "prompt-seed-55",
+    "title": "Traditional Bridal Portrait",
+    "promptText": "Young South Indian bride wearing bright red Kanchipuram silk saree with detailed golden border, layered bridal jewelry, maang tikka, jasmine flowers, glowing skin makeup, warm golden sunset light entering through temple pillars, emotional smile, shallow depth of field, ultra realistic wedding photography, luxurious traditional aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1609137144813-979929bc2531?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 310,
+    "tags": [
+      "bride",
+      "traditional",
+      "wedding",
+      "silk-saree",
+      "golden-hour"
+    ]
+  },
+  {
+    "id": "prompt-seed-56",
+    "title": "Cyberpunk Gaming Room",
+    "promptText": "Teenage gamer sitting in futuristic RGB gaming room with triple monitor setup, neon purple and blue lighting, anime posters on walls, mechanical keyboard glowing, realistic reflections, cinematic atmosphere, cyberpunk style room, highly detailed gaming aesthetic trending on Instagram",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 289,
+    "tags": [
+      "gamer",
+      "rgb",
+      "gaming-room",
+      "neon",
+      "mechanical-keyboard"
+    ]
+  },
+  {
+    "id": "prompt-seed-57",
+    "title": "Cozy Rain Window Scene",
+    "promptText": "Aesthetic cinematic scene of a hot coffee cup beside a rainy window during evening, warm orange lamp light, soft blanket on wooden chair, blurred city lights outside, cozy atmosphere, realistic steam from coffee, moody cinematic photography, relaxing Instagram aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&auto=format&fit=crop&q=60",
+    "category": "Food Photography",
+    "likes": 305,
+    "tags": [
+      "coffee",
+      "rainy-day",
+      "window",
+      "cozy",
+      "steam"
+    ]
+  },
+  {
+    "id": "prompt-seed-58",
+    "title": "AI Robot Companion",
+    "promptText": "Cute futuristic humanoid robot walking beside a young boy on a glowing cyberpunk street at night, hologram advertisements everywhere, emotional cinematic mood, realistic reflections, sci-fi storytelling composition, ultra detailed robot design, soft blue lighting, futuristic friendship theme",
+    "imageUrl": "https://images.unsplash.com/photo-1515621061946-eff1c2a352bd?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 332,
+    "tags": [
+      "robot",
+      "humanoid",
+      "friendship",
+      "cyberpunk",
+      "hologram"
+    ]
+  },
+  {
+    "id": "prompt-seed-59",
+    "title": "Mountain Adventure Shot",
+    "promptText": "Young traveler standing on the edge of a snowy mountain cliff with backpack and hiking gear, sunrise light breaking through clouds, cinematic wide-angle photography, dramatic nature atmosphere, realistic snow textures, inspirational travel aesthetic, ultra realistic adventure scene",
+    "imageUrl": "https://images.unsplash.com/photo-1491555103944-7c647fd857e6?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 294,
+    "tags": [
+      "traveler",
+      "mountains",
+      "snow",
+      "hiking",
+      "sunrise"
+    ]
+  },
+  {
+    "id": "prompt-seed-60",
+    "title": "Infinity Pool Luxury Lifestyle",
+    "promptText": "Luxury infinity pool overlooking tropical ocean during sunset, modern villa architecture, palm trees swaying, glowing ambient lights, cinematic vacation vibe, hyper realistic reflections, rich lifestyle aesthetic, premium travel magazine photography",
+    "imageUrl": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 387,
+    "tags": [
+      "infinity-pool",
+      "ocean-view",
+      "sunset",
+      "resort",
+      "luxury"
+    ]
+  },
+  {
+    "id": "prompt-seed-61",
+    "title": "Fire Samurai Warrior",
+    "promptText": "Epic Japanese samurai standing in heavy rain surrounded by floating fire embers, glowing red katana sword, black armor with gold details, cinematic smoke atmosphere, dramatic anime-inspired lighting, ultra detailed warrior portrait, fantasy movie poster style",
+    "imageUrl": "https://images.unsplash.com/photo-1548102245-c7bf7c569ff4?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 356,
+    "tags": [
+      "samurai",
+      "fire",
+      "katana",
+      "black-armor",
+      "rain"
+    ]
+  },
+  {
+    "id": "prompt-seed-62",
+    "title": "Tamil Village Festival",
+    "promptText": "Traditional Tamil village temple festival at night with colorful lights, crowded celebration, folk dancers performing, temple chariot decorated with flowers, warm festive lighting, cinematic drone shot, realistic atmosphere, cultural storytelling photography",
+    "imageUrl": "https://images.unsplash.com/photo-1561361513-2d000a50f0db?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 329,
+    "tags": [
+      "festival",
+      "temple",
+      "village",
+      "drone-shot",
+      "cultural"
+    ]
+  },
+  {
+    "id": "prompt-seed-63",
+    "title": "Space Explorer Scene",
+    "promptText": "Astronaut standing on an alien planet with giant glowing galaxy visible in the sky, futuristic spaceship behind him, purple and blue cosmic lighting, realistic space suit details, cinematic science fiction atmosphere, ultra detailed environment",
+    "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 371,
+    "tags": [
+      "astronaut",
+      "space",
+      "alien-planet",
+      "galaxy",
+      "spaceship"
+    ]
+  },
+  {
+    "id": "prompt-seed-64",
+    "title": "Luxury Watch Commercial",
+    "promptText": "Close-up macro shot of luxury gold wristwatch placed on black reflective surface with water droplets, dramatic studio lighting, premium shadows, hyper realistic details, advertisement photography style, rich black and gold aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 308,
+    "tags": [
+      "wristwatch",
+      "gold",
+      "watch",
+      "macro",
+      "commercial"
+    ]
+  },
+  {
+    "id": "prompt-seed-65",
+    "title": "Dark Mafia Boss Portrait",
+    "promptText": "Stylish mafia boss sitting in luxury leather chair inside dark office room, cigar smoke filling the atmosphere, black suit with gold watch, moody cinematic shadows, realistic facial texture, dramatic gangster movie vibe, ultra detailed portrait",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 395,
+    "tags": [
+      "mafia",
+      "leather-chair",
+      "suit",
+      "boss",
+      "gangster"
+    ]
+  },
+  {
+    "id": "prompt-seed-66",
+    "title": "Fantasy Dragon Rider",
+    "promptText": "Young warrior riding a giant dragon through cloudy mountains during sunset, glowing orange sky, cinematic fantasy atmosphere, ultra detailed dragon scales, epic adventure movie composition, highly realistic fantasy artwork",
+    "imageUrl": "https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 312,
+    "tags": [
+      "dragon",
+      "warrior",
+      "fantasy",
+      "mountains",
+      "adventure"
+    ]
+  },
+  {
+    "id": "prompt-seed-67",
+    "title": "Stylish Street Fashion Shoot",
+    "promptText": "Modern Indian fashion model walking confidently through busy urban street, oversized jacket, sneakers, sunglasses, cinematic motion blur, orange sunset reflections, Instagram streetwear aesthetic, realistic editorial photography",
+    "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 278,
+    "tags": [
+      "streetwear",
+      "fashion-model",
+      "sunglasses",
+      "motion-blur",
+      "instagram"
+    ]
+  },
+  {
+    "id": "prompt-seed-68",
+    "title": "Temple Deepam Glow",
+    "promptText": "Ancient South Indian temple corridor filled with hundreds of glowing oil lamps during evening prayer, spiritual atmosphere, golden warm lighting, detailed stone carvings, cinematic devotional photography, peaceful sacred mood",
+    "imageUrl": "https://images.unsplash.com/photo-1611016186353-9af58c69a533?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 402,
+    "tags": [
+      "devational",
+      "oil-lamps",
+      "diya",
+      "temple-glow",
+      "sacred"
+    ]
+  },
+  {
+    "id": "prompt-seed-69",
+    "title": "Neon Bike Rider",
+    "promptText": "Futuristic biker wearing glowing LED helmet riding superbike through neon-lit cyberpunk city street in heavy rain, cinematic reflections, blue and pink lighting, high speed motion blur, ultra realistic action photography",
+    "imageUrl": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 361,
+    "tags": [
+      "cyberpunk",
+      "biker",
+      "led-helmet",
+      "rain",
+      "neon-lights"
+    ]
+  },
+  {
+    "id": "prompt-seed-70",
+    "title": "Dreamy Moon Lake",
+    "promptText": "Beautiful fantasy lake reflecting giant glowing moon at night, magical fireflies floating in the air, misty atmosphere, purple-blue cinematic color grading, ultra detailed fantasy environment, dreamy Instagram wallpaper aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1518156677180-95a2893f3e9f?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 389,
+    "tags": [
+      "moonlight",
+      "lake-reflection",
+      "misty",
+      "fireflies",
+      "dreamy"
+    ]
+  },
+  {
+    "id": "prompt-seed-71",
+    "title": "Cinematic Rooftop Portrait",
+    "promptText": "Ultra realistic cinematic portrait of a stylish young Indian man standing on a rooftop at sunset, wearing a black oversized jacket, wind blowing through hair, glowing orange skyline behind him, dramatic shadows, shallow depth of field, moody atmosphere, luxury editorial photography style, 8K ultra detailed",
+    "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 331,
+    "tags": [
+      "rooftop",
+      "sunset",
+      "oversized-jacket",
+      "editorial"
+    ]
+  },
+  {
+    "id": "prompt-seed-72",
+    "title": "Royal Princess Fantasy",
+    "promptText": "Beautiful South Indian princess inside an ancient palace hallway, wearing a royal purple silk saree with gold embroidery, temple jewelry sparkling under warm candle lights, dreamy cinematic atmosphere, hyper realistic fantasy portrait",
+    "imageUrl": "https://images.unsplash.com/photo-1605152276897-4f618f83196c?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 298,
+    "tags": [
+      "princess",
+      "palace",
+      "purple-saree",
+      "temple-jewelry"
+    ]
+  },
+  {
+    "id": "prompt-seed-73",
+    "title": "Cyberpunk Metro Station",
+    "promptText": "Futuristic underground metro station filled with neon advertisements in Tamil language, rainy reflective floor, glowing blue and pink lights, people wearing futuristic outfits, cinematic sci-fi atmosphere, ultra realistic environment",
+    "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 315,
+    "tags": [
+      "metro",
+      "holograms",
+      "neon-signs",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": "prompt-seed-74",
+    "title": "Desert Warrior Scene",
+    "promptText": "Epic fantasy warrior standing in massive desert storm holding glowing sword, dramatic orange sky, sand flying around, ultra detailed armor, cinematic action movie style",
+    "imageUrl": "https://images.unsplash.com/photo-1548102245-c7bf7c569ff4?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 294,
+    "tags": [
+      "warrior",
+      "desert-storm",
+      "glowing-sword",
+      "armor"
+    ]
+  },
+  {
+    "id": "prompt-seed-75",
+    "title": "Luxury Bedroom Interior",
+    "promptText": "Modern luxury bedroom with giant glass windows overlooking city skyline at night, warm ambient lighting, minimal aesthetic furniture, cinematic interior photography, hyper realistic reflections",
+    "imageUrl": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 320,
+    "tags": [
+      "bedroom",
+      "skyline",
+      "modern-interior",
+      "glass-walls"
+    ]
+  },
+  {
+    "id": "prompt-seed-76",
+    "title": "Romantic Rain Walk",
+    "promptText": "Young Indian couple walking together under transparent umbrella during heavy rain, warm street lights glowing around them, emotional cinematic mood, realistic rain reflections, dreamy Bollywood atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 395,
+    "tags": [
+      "romance",
+      "umbrella",
+      "heavy-rain",
+      "street-lights"
+    ]
+  },
+  {
+    "id": "prompt-seed-77",
+    "title": "Neon Street Fashion",
+    "promptText": "Teenage fashion model standing beside neon-lit street wall, oversized hoodie, sneakers, silver accessories, blue and magenta cyberpunk lighting, Instagram streetwear photography aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1515621061946-eff1c2a352bd?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 288,
+    "tags": [
+      "streetwear",
+      "neon-wall",
+      "oversized-hoodie",
+      "cyberpunk"
+    ]
+  },
+  {
+    "id": "prompt-seed-78",
+    "title": "Temple Festival Drone Shot",
+    "promptText": "Aerial cinematic shot of a massive Tamil temple festival at night, colorful lights, decorated chariots, fireworks in sky, crowded streets, vibrant Indian cultural atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1545128485-c400e7702796?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 376,
+    "tags": [
+      "drone-shot",
+      "temple-festival",
+      "fireworks",
+      "celebration"
+    ]
+  },
+  {
+    "id": "prompt-seed-79",
+    "title": "Space Colony Future",
+    "promptText": "Massive futuristic human colony built on Mars, glowing domes, flying ships, orange desert landscape, cinematic science fiction world design, ultra realistic digital art",
+    "imageUrl": "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 312,
+    "tags": [
+      "mars-colony",
+      "future-domes",
+      "starships",
+      "desert"
+    ]
+  },
+  {
+    "id": "prompt-seed-80",
+    "title": "Luxury Yacht Sunset",
+    "promptText": "Elegant luxury yacht floating on calm ocean during golden sunset, cinematic reflections on water, rich vacation lifestyle aesthetic, premium travel photography",
+    "imageUrl": "https://images.unsplash.com/photo-1540962351504-03099e0a754b?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 345,
+    "tags": [
+      "yacht",
+      "sunset-sea",
+      "rich-lifestyle",
+      "vacation"
+    ]
+  },
+  {
+    "id": "prompt-seed-81",
+    "title": "AI Goddess Portrait",
+    "promptText": "Futuristic Indian goddess with glowing cybernetic jewelry, hologram effects around body, powerful expression, neon lighting, ultra realistic sci-fi fantasy portrait",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 361,
+    "tags": [
+      "goddess-ai",
+      "cybernetic",
+      "holograms",
+      "neon"
+    ]
+  },
+  {
+    "id": "prompt-seed-82",
+    "title": "Vintage Tamil Hero Poster",
+    "promptText": "Retro 90s Tamil movie inspired hero poster, dramatic action pose, old film grain texture, cinematic smoke atmosphere, colorful mass cinema vibe",
+    "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&auto=format&fit=crop&q=60",
+    "category": "Viral Poster Designs",
+    "likes": 284,
+    "tags": [
+      "retro-90s",
+      "mass-cinema",
+      "film-grain",
+      "action-pose"
+    ]
+  },
+  {
+    "id": "prompt-seed-83",
+    "title": "Cozy Library Mood",
+    "promptText": "Warm cozy library room filled with vintage books, rainy window atmosphere, glowing orange lamp light, soft shadows, cinematic aesthetic photography",
+    "imageUrl": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 298,
+    "tags": [
+      "library",
+      "vintage-books",
+      "cozy-lamp",
+      "rainy-day"
+    ]
+  },
+  {
+    "id": "prompt-seed-84",
+    "title": "Fire Dragon Fantasy",
+    "promptText": "Massive fire dragon flying above burning medieval kingdom, dramatic cinematic sky, glowing lava effects, ultra detailed fantasy movie artwork",
+    "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 352,
+    "tags": [
+      "fire-dragon",
+      "lava-effects",
+      "burning-kingdom",
+      "epic"
+    ]
+  },
+  {
+    "id": "prompt-seed-85",
+    "title": "Stylish Cafe Portrait",
+    "promptText": "Beautiful young woman sitting inside aesthetic cafe holding coffee cup, soft warm lighting, blurred background lights, cinematic fashion photography style",
+    "imageUrl": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 302,
+    "tags": [
+      "cafe-date",
+      "fashion-portrait",
+      "coffee-cup",
+      "bokeh"
+    ]
+  },
+  {
+    "id": "prompt-seed-86",
+    "title": "Futuristic Sports Bike",
+    "promptText": "Ultra modern cyberpunk superbike parked under neon city lights, futuristic design details, rainy atmosphere, cinematic reflections, high-end concept photography",
+    "imageUrl": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 344,
+    "tags": [
+      "superbike",
+      "cyberpunk",
+      "concept-bike",
+      "neon-reflections"
+    ]
+  },
+  {
+    "id": "prompt-seed-87",
+    "title": "Golden Temple Sunrise",
+    "promptText": "Ancient South Indian temple glowing under sunrise light, mist surrounding the temple towers, cinematic spiritual atmosphere, hyper realistic architecture photography",
+    "imageUrl": "https://images.unsplash.com/photo-1581888227599-779811939961?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 398,
+    "tags": [
+      "sunrise",
+      "temple-towers",
+      "golden-hour",
+      "peaceful"
+    ]
+  },
+  {
+    "id": "prompt-seed-88",
+    "title": "Rainy Train Journey",
+    "promptText": "Young traveler sitting beside train window during rain, emotional cinematic mood, blurred city lights outside, realistic reflections, storytelling photography",
+    "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 294,
+    "tags": [
+      "train-travel",
+      "rainy-window",
+      "emotional",
+      "storytelling"
+    ]
+  },
+  {
+    "id": "prompt-seed-89",
+    "title": "Black Panther Portrait",
+    "promptText": "Ultra realistic black panther close-up with glowing golden eyes, dark jungle atmosphere, cinematic wildlife photography style",
+    "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 312,
+    "tags": [
+      "panther",
+      "golden-eyes",
+      "jungle-safari",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "prompt-seed-90",
+    "title": "Futuristic Classroom",
+    "promptText": "Modern AI-powered classroom with hologram screens, students learning through futuristic technology, bright cinematic lighting, advanced educational environment",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 264,
+    "tags": [
+      "classroom",
+      "holograms",
+      "modern-school",
+      "ai-learning"
+    ]
+  },
+  {
+    "id": "prompt-seed-91",
+    "title": "Neon Samurai Alley",
+    "promptText": "Japanese samurai standing in narrow cyberpunk alley filled with neon signs and smoke, glowing katana sword, rainy reflections, cinematic anime-inspired atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 381,
+    "tags": [
+      "neon-samurai",
+      "katana",
+      "cyberpunk-alley",
+      "rainy"
+    ]
+  },
+  {
+    "id": "prompt-seed-92",
+    "title": "Luxury Dining Setup",
+    "promptText": "Elegant luxury dining table with candles, crystal glasses, golden decorations, cinematic warm lighting, premium restaurant aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 287,
+    "tags": [
+      "dining-set",
+      "luxury-restaurant",
+      "warm-candles",
+      "crystal"
+    ]
+  },
+  {
+    "id": "prompt-seed-93",
+    "title": "Fantasy Sky Kingdom",
+    "promptText": "Floating fantasy kingdom above clouds with waterfalls falling into sky, glowing castles, magical atmosphere, cinematic fantasy world design",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 367,
+    "tags": [
+      "sky-castles",
+      "waterfalls",
+      "kingdom",
+      "mystical"
+    ]
+  },
+  {
+    "id": "prompt-seed-94",
+    "title": "Stylish Gym Portrait",
+    "promptText": "Fitness athlete standing inside dramatic gym lighting, sweat details visible on skin, cinematic shadows, motivational fitness photography",
+    "imageUrl": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=800&auto=format&fit=crop&q=60",
+    "category": "Motivational & Success",
+    "likes": 322,
+    "tags": [
+      "fitness-motivation",
+      "athlete-portrait",
+      "dramatic-gym",
+      "sweat"
+    ]
+  },
+  {
+    "id": "prompt-seed-95",
+    "title": "Ocean Cliff Adventure",
+    "promptText": "Young traveler standing near giant ocean cliff during stormy weather, cinematic nature photography, dramatic sky atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 305,
+    "tags": [
+      "cliff-climbing",
+      "ocean-storm",
+      "traveler",
+      "adventure"
+    ]
+  },
+  {
+    "id": "prompt-seed-96",
+    "title": "Royal Elephant Procession",
+    "promptText": "Decorated royal elephant walking during traditional Indian festival, colorful ornaments, cinematic crowd atmosphere, ultra realistic cultural photography",
+    "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 347,
+    "tags": [
+      "elephant",
+      "temple-festival",
+      "golden-ornaments",
+      "culture"
+    ]
+  },
+  {
+    "id": "prompt-seed-97",
+    "title": "Dreamy Lavender Field",
+    "promptText": "Beautiful girl walking through endless lavender flower field during sunset, soft wind movement, dreamy cinematic mood",
+    "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 315,
+    "tags": [
+      "lavender-field",
+      "sunset-walk",
+      "flower-field",
+      "dreamy"
+    ]
+  },
+  {
+    "id": "prompt-seed-98",
+    "title": "Hacker Room Setup",
+    "promptText": "Dark cyberpunk hacker room with glowing monitors, hologram screens, neon RGB lighting, futuristic tech atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 298,
+    "tags": [
+      "hacking",
+      "monitors",
+      "cyberpunk-hacker",
+      "neon"
+    ]
+  },
+  {
+    "id": "prompt-seed-99",
+    "title": "Snow Castle Fantasy",
+    "promptText": "Huge magical ice castle glowing under northern lights, cinematic snowy environment, ultra detailed fantasy artwork",
+    "imageUrl": "https://images.unsplash.com/photo-1491555103944-7c647fd857e6?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 341,
+    "tags": [
+      "ice-castle",
+      "aurora",
+      "snowy-forest",
+      "magical"
+    ]
+  },
+  {
+    "id": "prompt-seed-100",
+    "title": "Luxury Perfume Advertisement",
+    "promptText": "Elegant perfume bottle placed on glossy black reflective surface with golden smoke effects, premium cinematic commercial photography",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 312,
+    "tags": [
+      "perfume",
+      "studio-ad",
+      "golden-smoke",
+      "luxury"
+    ]
+  },
+  {
+    "id": "prompt-seed-101",
+    "title": "Village Rain Scene",
+    "promptText": "Traditional Tamil village road during monsoon rain, small tea shop glowing warmly, cinematic storytelling atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 339,
+    "tags": [
+      "rainy-day",
+      "village-life",
+      "tea-shop",
+      "monsoon"
+    ]
+  },
+  {
+    "id": "prompt-seed-102",
+    "title": "Anime Hero Transformation",
+    "promptText": "Powerful anime-inspired hero surrounded by glowing blue energy aura, dramatic cinematic action pose, fantasy atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 345,
+    "tags": [
+      "anime",
+      "energy-aura",
+      "action-pose",
+      "hero"
+    ]
+  },
+  {
+    "id": "prompt-seed-103",
+    "title": "Sunset Desert Car",
+    "promptText": "Luxury sports car driving through desert highway during sunset, cinematic dust trails, orange sky reflections",
+    "imageUrl": "https://images.unsplash.com/photo-1542282088-fe8426682b8f?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 298,
+    "tags": [
+      "sports-car",
+      "desert-highway",
+      "sunset-dust",
+      "speed"
+    ]
+  },
+  {
+    "id": "prompt-seed-104",
+    "title": "Underwater Fantasy City",
+    "promptText": "Massive underwater futuristic city glowing with blue neon lights, giant sea creatures swimming around, cinematic sci-fi fantasy scene",
+    "imageUrl": "https://images.unsplash.com/photo-1518156677180-95a2893f3e9f?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 352,
+    "tags": [
+      "underwater",
+      "mermaid-sea",
+      "neon-reef",
+      "submarine"
+    ]
+  },
+  {
+    "id": "prompt-seed-105",
+    "title": "Stylish Airport Fashion",
+    "promptText": "Fashion influencer walking confidently through luxury airport terminal, cinematic motion blur, premium lifestyle photography",
+    "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 310,
+    "tags": [
+      "airport-style",
+      "fashion-influencer",
+      "jetset-luxe",
+      "motion"
+    ]
+  },
+  {
+    "id": "prompt-seed-106",
+    "title": "Jungle Waterfall Scene",
+    "promptText": "Hidden jungle waterfall with sunlight rays passing through trees, cinematic tropical atmosphere, ultra realistic nature photography",
+    "imageUrl": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 334,
+    "tags": [
+      "jungle-falls",
+      "sunlight-rays",
+      "tropical-forest",
+      "misty"
+    ]
+  },
+  {
+    "id": "prompt-seed-107",
+    "title": "Black and Gold Portrait",
+    "promptText": "Luxury black and gold themed portrait with dramatic studio lighting, premium fashion magazine aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 298,
+    "tags": [
+      "black-gold",
+      "studio-lighting",
+      "magazine",
+      "luxury"
+    ]
+  },
+  {
+    "id": "prompt-seed-108",
+    "title": "Futuristic Drone Delivery",
+    "promptText": "Flying delivery drones moving through futuristic Indian city skyline, cinematic sci-fi environment, neon atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1515621061946-eff1c2a352bd?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 275,
+    "tags": [
+      "delivery-drones",
+      "skyline-city",
+      "sci-fi",
+      "holograms"
+    ]
+  },
+  {
+    "id": "prompt-seed-109",
+    "title": "Hero Bike Entry Scene",
+    "promptText": "Tamil mass hero riding powerful bike through smoke-filled road, crowd cheering behind, cinematic action atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1611016186353-9af58c69a533?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 356,
+    "tags": [
+      "biker-entry",
+      "smoke-drive",
+      "action-scene",
+      "mass-look"
+    ]
+  },
+  {
+    "id": "prompt-seed-110",
+    "title": "Winter Cabin Mood",
+    "promptText": "Cozy wooden cabin in snowy forest during night, warm lights glowing from windows, cinematic winter aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 341,
+    "tags": [
+      "cabin-woods",
+      "snowy-night",
+      "cozy",
+      "winter"
+    ]
+  },
+  {
+    "id": "prompt-seed-111",
+    "title": "Moonlight Temple View",
+    "promptText": "Ancient temple under giant glowing full moon, spiritual mist atmosphere, cinematic devotional artwork",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 387,
+    "tags": [
+      "full-moon",
+      "ancient-temple",
+      "misty-view",
+      "devotional"
+    ]
+  },
+  {
+    "id": "prompt-seed-112",
+    "title": "Neon Basketball Court",
+    "promptText": "Street basketball player under neon court lights at night, cinematic sports photography, energetic urban vibe",
+    "imageUrl": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800&auto=format&fit=crop&q=60",
+    "category": "Viral Poster Designs",
+    "likes": 294,
+    "tags": [
+      "street-ball",
+      "neon-court",
+      "urban-life",
+      "sports"
+    ]
+  },
+  {
+    "id": "prompt-seed-113",
+    "title": "Golden Peacock Portrait",
+    "promptText": "Ultra detailed peacock with glowing golden feathers, dramatic royal lighting, cinematic wildlife photography",
+    "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 312,
+    "tags": [
+      "peacock",
+      "golden-feathers",
+      "wildlife",
+      "regal"
+    ]
+  },
+  {
+    "id": "prompt-seed-114",
+    "title": "Modern Glass Villa",
+    "promptText": "Luxury glass villa beside lake during sunset, warm interior lights glowing, cinematic architectural photography",
+    "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 349,
+    "tags": [
+      "lakefront-villa",
+      "glass-house",
+      "sunset-glow",
+      "interior"
+    ]
+  },
+  {
+    "id": "prompt-seed-115",
+    "title": "Fire Phoenix Rising",
+    "promptText": "Massive phoenix bird rising from flames with glowing wings spread wide, cinematic fantasy artwork",
+    "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 381,
+    "tags": [
+      "phoenix",
+      "fire-bird",
+      "rebirth",
+      "epic"
+    ]
+  },
+  {
+    "id": "prompt-seed-116",
+    "title": "Stylish Motorcycle Portrait",
+    "promptText": "Young biker leaning on black superbike under neon city lights, cinematic rain reflections, fashion photography vibe",
+    "imageUrl": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf0a3?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 305,
+    "tags": [
+      "biker",
+      "cool-pose",
+      "neon",
+      "rain-reflections"
+    ]
+  },
+  {
+    "id": "prompt-seed-117",
+    "title": "Galaxy Meditation Scene",
+    "promptText": "Spiritual monk meditating inside cosmic galaxy environment, glowing energy circles around body, cinematic mystical atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1609137144813-979929bc2531?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 388,
+    "tags": [
+      "monk",
+      "cosmic-energy",
+      "galaxy-stars",
+      "spiritual"
+    ]
+  },
+  {
+    "id": "prompt-seed-118",
+    "title": "Luxury Rooftop Pool",
+    "promptText": "Infinity rooftop swimming pool overlooking futuristic city skyline at night, cinematic reflections, luxury lifestyle aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 394,
+    "tags": [
+      "rooftop-pool",
+      "city-skyline",
+      "infinity-swim",
+      "luxury"
+    ]
+  },
+  {
+    "id": "prompt-seed-119",
+    "title": "Dark Knight Fantasy",
+    "promptText": "Powerful dark knight standing in battlefield surrounded by smoke and fire sparks, cinematic medieval fantasy artwork",
+    "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 312,
+    "tags": [
+      "dark-knight",
+      "battlefield",
+      "smoky-fire",
+      "armor"
+    ]
+  },
+  {
+    "id": "prompt-seed-120",
+    "title": "Tropical Beach Drone View",
+    "promptText": "Aerial drone shot of tropical beach with turquoise water and palm trees, cinematic vacation mood, ultra realistic travel photography",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 355,
+    "tags": [
+      "beach-drone",
+      "turquoise-water",
+      "palm-trees",
+      "vacation"
+    ]
+  },
+  {
+    "id": "prompt-seed-121",
+    "title": "Futuristic Indian Marketplace",
+    "promptText": "Massive futuristic Indian marketplace at night filled with hologram signboards in Tamil, floating food stalls, neon-lit streets, rainy reflections, people wearing cyberpunk traditional outfits, cinematic sci-fi atmosphere, ultra detailed environment, realistic shadows, high-end movie concept art",
+    "imageUrl": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 162,
+    "tags": [
+      "tamil-neon",
+      "cyberpunk-bazar",
+      "holograms",
+      "rainy-market"
+    ]
+  },
+  {
+    "id": "prompt-seed-122",
+    "title": "Golden Hour Wheat Field Portrait",
+    "promptText": "Beautiful young woman standing in endless wheat field during golden sunset, soft wind moving through hair and dress, cinematic warm lighting, dreamy atmosphere, shallow depth of field, ultra realistic skin texture, luxury editorial photography",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 138,
+    "tags": [
+      "wheat-field",
+      "golden-hour",
+      "dreamy-sunset",
+      "woman-portrait"
+    ]
+  },
+  {
+    "id": "prompt-seed-123",
+    "title": "Samurai Temple Battle",
+    "promptText": "Epic samurai warrior standing in ancient Japanese temple courtyard during thunderstorm, glowing katana, rain pouring heavily, cinematic lightning effects, dramatic smoke atmosphere, ultra detailed armor textures",
+    "imageUrl": "https://images.unsplash.com/photo-1561361513-2d000a50f0db?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 183,
+    "tags": [
+      "samurai",
+      "temple-battle",
+      "katana-glow",
+      "thunderstorm"
+    ]
+  },
+  {
+    "id": "prompt-seed-124",
+    "title": "Luxury Black Mansion",
+    "promptText": "Modern black luxury mansion with giant glass walls, infinity pool glowing at night, cinematic architecture photography, moody blue ambient lighting, premium millionaire lifestyle aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 181,
+    "tags": [
+      "black-mansion",
+      "infinity-pool",
+      "luxury-home",
+      "moody-blue"
+    ]
+  },
+  {
+    "id": "prompt-seed-125",
+    "title": "Neon Purple Tunnel Scene",
+    "promptText": "Stylish young model standing inside futuristic neon purple tunnel, glowing reflections on floor, cyberpunk atmosphere, cinematic symmetrical composition, fashion magazine photography style",
+    "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 120,
+    "tags": [
+      "neon-purple",
+      "tunnel",
+      "fashion",
+      "cyber-grid"
+    ]
+  },
+  {
+    "id": "prompt-seed-126",
+    "title": "Forest Elf Queen",
+    "promptText": "Magical elf queen standing inside glowing fantasy forest, long silver hair, green royal dress, floating magical particles, cinematic fantasy artwork, dreamy atmosphere, ultra realistic details",
+    "imageUrl": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 245,
+    "tags": [
+      "elf-queen",
+      "glowing-forest",
+      "magical-dust",
+      "royal-gown"
+    ]
+  },
+  {
+    "id": "prompt-seed-127",
+    "title": "Futuristic Tamil Hero",
+    "promptText": "Tamil movie hero standing confidently in futuristic Chennai street, black leather jacket, hologram ads behind him, cinematic smoke and sparks, mass hero entry atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 304,
+    "tags": [
+      "chennai-future",
+      "tamil-hero",
+      "leather-jacket",
+      "holograms"
+    ]
+  },
+  {
+    "id": "prompt-seed-128",
+    "title": "Luxury Jewelry Close-Up",
+    "promptText": "Macro shot of traditional South Indian gold jewelry placed on silk cloth, warm cinematic lighting, ultra detailed texture, luxury commercial photography",
+    "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 182,
+    "tags": [
+      "traditional-gold",
+      "temple-jewelry",
+      "macro-details",
+      "luxury-silk"
+    ]
+  },
+  {
+    "id": "prompt-seed-129",
+    "title": "Snow Adventure Couple",
+    "promptText": "Young couple walking through snowy mountain village during evening snowfall, warm cabin lights glowing in background, emotional cinematic travel photography",
+    "imageUrl": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 241,
+    "tags": [
+      "snowfall",
+      "cozy-cabin",
+      "mountain-travel",
+      "romantic-hugs"
+    ]
+  },
+  {
+    "id": "prompt-seed-130",
+    "title": "AI Fashion Runway",
+    "promptText": "Futuristic fashion runway with robotic models wearing glowing cyberpunk outfits, holographic stage lights, cinematic sci-fi fashion atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 198,
+    "tags": [
+      "runway-fashion",
+      "robot-model",
+      "cybernetic",
+      "stage-glow"
+    ]
+  },
+  {
+    "id": "prompt-seed-131",
+    "title": "Royal Lion Throne",
+    "promptText": "Massive lion sitting beside golden throne inside ancient palace, cinematic royal atmosphere, ultra realistic fur details, dramatic lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 200,
+    "tags": [
+      "royal-lion",
+      "golden-throne",
+      "ancient-palace",
+      "fur-textures"
+    ]
+  },
+  {
+    "id": "prompt-seed-132",
+    "title": "Dark Alley Bike Rider",
+    "promptText": "Motorcyclist wearing futuristic helmet riding through dark rainy alley filled with neon signs, cinematic reflections, cyberpunk mood",
+    "imageUrl": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 156,
+    "tags": [
+      "biker",
+      "neon-signs",
+      "rainy-alley",
+      "cyber-helmet"
+    ]
+  },
+  {
+    "id": "prompt-seed-133",
+    "title": "Floating Lantern Festival",
+    "promptText": "Beautiful night festival with thousands of floating lanterns rising into sky, river reflections, warm cinematic lighting, dreamy atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5edd0cd9?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 159,
+    "tags": [
+      "floating-lanterns",
+      "river-reflections",
+      "dreamy-night",
+      "candles"
+    ]
+  },
+  {
+    "id": "prompt-seed-134",
+    "title": "Black Suit Mafia Portrait",
+    "promptText": "Stylish mafia leader standing beside luxury vintage car, cigar smoke around him, cinematic gangster movie aesthetic, dark dramatic shadows",
+    "imageUrl": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf0a3?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 313,
+    "tags": [
+      "mafia-suit",
+      "vintage-car",
+      "gangster-movie",
+      "smoky-shadows"
+    ]
+  },
+  {
+    "id": "prompt-seed-135",
+    "title": "Underwater Mermaid Kingdom",
+    "promptText": "Fantasy underwater kingdom with glowing mermaids, colorful coral castles, magical blue lighting, cinematic fantasy environment",
+    "imageUrl": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 143,
+    "tags": [
+      "mermaid",
+      "underwater",
+      "coral-castle",
+      "mystical-glow"
+    ]
+  },
+  {
+    "id": "prompt-seed-136",
+    "title": "Rainy Window Portrait",
+    "promptText": "Emotional portrait of young woman sitting near rainy window with warm orange light on face, cinematic storytelling mood, ultra realistic photography",
+    "imageUrl": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 184,
+    "tags": [
+      "rainy-window",
+      "orange-glow",
+      "emotional-portrait",
+      "storytelling"
+    ]
+  },
+  {
+    "id": "prompt-seed-137",
+    "title": "Futuristic Sports Arena",
+    "promptText": "Massive futuristic football stadium with hologram screens and flying drones, dramatic lighting, cinematic sports atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 157,
+    "tags": [
+      "sports-arena",
+      "holograms",
+      "drones",
+      "stadium-lights"
+    ]
+  },
+  {
+    "id": "prompt-seed-138",
+    "title": "Desert Camel Caravan",
+    "promptText": "Ancient desert caravan moving through golden sand dunes during sunset, cinematic wide-angle photography, historical fantasy vibe",
+    "imageUrl": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 259,
+    "tags": [
+      "desert-caravan",
+      "golden-dunes",
+      "sunset-ride",
+      "historical"
+    ]
+  },
+  {
+    "id": "prompt-seed-139",
+    "title": "Neon Gamer Portrait",
+    "promptText": "Teenage gamer wearing headphones sitting in RGB-lit room, glowing monitor reflections on face, cyberpunk gaming atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 233,
+    "tags": [
+      "rgb-lighting",
+      "gamer-room",
+      "headphones",
+      "monitor-glow"
+    ]
+  },
+  {
+    "id": "prompt-seed-140",
+    "title": "Luxury Helicopter Arrival",
+    "promptText": "Businessman stepping out of luxury helicopter on rooftop helipad during sunset, cinematic millionaire lifestyle photography",
+    "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 284,
+    "tags": [
+      "helicopter-pad",
+      "businessman",
+      "millionaire",
+      "rooftop-sunset"
+    ]
+  },
+  {
+    "id": "prompt-seed-141",
+    "title": "Ancient Temple Warrior",
+    "promptText": "Powerful Indian warrior standing inside ruined ancient temple holding glowing spear, cinematic fire lighting, fantasy movie poster style",
+    "imageUrl": "https://images.unsplash.com/photo-1561361513-2d000a50f0db?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 212,
+    "tags": [
+      "temple-warrior",
+      "glowing-spear",
+      "ruined-sanctuary",
+      "fire-light"
+    ]
+  },
+  {
+    "id": "prompt-seed-142",
+    "title": "Cozy Winter Cafe",
+    "promptText": "Warm aesthetic winter cafe with snowfall outside windows, glowing lights, coffee steam, cinematic cozy atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 166,
+    "tags": [
+      "winter-cafe",
+      "snowfall",
+      "cozy-vibes",
+      "coffee-steam"
+    ]
+  },
+  {
+    "id": "prompt-seed-143",
+    "title": "Futuristic Flying Taxi",
+    "promptText": "Flying taxi moving between giant skyscrapers in futuristic Indian city during rainy night, cyberpunk cinematic mood",
+    "imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 210,
+    "tags": [
+      "flying-taxi",
+      "skyscrapers",
+      "cyber-streets",
+      "rainy-future"
+    ]
+  },
+  {
+    "id": "prompt-seed-144",
+    "title": "Black Panther Jungle Scene",
+    "promptText": "Ultra realistic black panther walking through dark jungle with glowing green eyes, cinematic wildlife photography",
+    "imageUrl": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 267,
+    "tags": [
+      "black-panther",
+      "dark-jungle",
+      "green-eyes",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "prompt-seed-145",
+    "title": "Luxury Fashion Magazine Cover",
+    "promptText": "Elegant female model wearing designer black dress under dramatic studio lighting, luxury magazine cover style photography",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 295,
+    "tags": [
+      "fashion-magazine",
+      "designer-dress",
+      "studio-chic",
+      "glamour"
+    ]
+  },
+  {
+    "id": "prompt-seed-146",
+    "title": "Volcano Fantasy Battle",
+    "promptText": "Epic fantasy warriors fighting near erupting volcano, glowing lava atmosphere, cinematic action scene",
+    "imageUrl": "https://images.unsplash.com/photo-1618336753974-aae8e04506aa?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 265,
+    "tags": [
+      "volcano-eruption",
+      "magical-blade",
+      "lava-glow",
+      "epic-battle"
+    ]
+  },
+  {
+    "id": "prompt-seed-147",
+    "title": "Village Temple Morning",
+    "promptText": "Traditional Tamil village temple during early sunrise with fog atmosphere, golden light rays, peaceful devotional photography",
+    "imageUrl": "https://images.unsplash.com/photo-1519074069444-1ba12565b172?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 122,
+    "tags": [
+      "village-temple",
+      "tamil-sunrise",
+      "foggy-morning",
+      "peaceful"
+    ]
+  },
+  {
+    "id": "prompt-seed-148",
+    "title": "Space Station Interior",
+    "promptText": "Highly advanced futuristic space station control room with giant hologram screens, cinematic sci-fi environment",
+    "imageUrl": "https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 274,
+    "tags": [
+      "space-station",
+      "control-room",
+      "galactic-view",
+      "holograms"
+    ]
+  },
+  {
+    "id": "prompt-seed-149",
+    "title": "Dreamy Flower Garden",
+    "promptText": "Young woman standing inside magical flower garden filled with butterflies and soft sunlight, dreamy romantic atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 257,
+    "tags": [
+      "flower-garden",
+      "butterflies",
+      "soft-sunlight",
+      "romantic-nature"
+    ]
+  },
+  {
+    "id": "prompt-seed-150",
+    "title": "Neon Skateboard Street",
+    "promptText": "Skateboarder performing tricks under neon street lights at night, cinematic urban photography, cyberpunk vibes",
+    "imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 184,
+    "tags": [
+      "skateboarder",
+      "neon-streets",
+      "urban-skate",
+      "nightwork"
+    ]
+  },
+  {
+    "id": "prompt-seed-151",
+    "title": "Golden Peacock Dance",
+    "promptText": "Royal peacock spreading feathers during rain with dramatic cinematic lighting, ultra detailed wildlife photography",
+    "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 224,
+    "tags": [
+      "peacock-dance",
+      "spreading-feathers",
+      "monsoon-glow",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "prompt-seed-152",
+    "title": "Luxury Home Theater",
+    "promptText": "Modern luxury home theater room with ambient blue lighting, giant screen, cinematic interior design photography",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 153,
+    "tags": [
+      "home-cinema",
+      "ambient-blue",
+      "luxury-seating",
+      "immersive"
+    ]
+  },
+  {
+    "id": "prompt-seed-153",
+    "title": "Fire Mage Portrait",
+    "promptText": "Fantasy fire mage surrounded by floating flames and glowing magical symbols, cinematic dark fantasy artwork",
+    "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 183,
+    "tags": [
+      "fire-mage",
+      "magical-spells",
+      "floating-sparks",
+      "dark-fantasy"
+    ]
+  },
+  {
+    "id": "prompt-seed-154",
+    "title": "Rainforest Waterfall Adventure",
+    "promptText": "Explorer standing near giant rainforest waterfall with mist atmosphere, cinematic travel photography",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 182,
+    "tags": [
+      "rainforest",
+      "mighty-waterfall",
+      "explorer",
+      "misty-mountains"
+    ]
+  },
+  {
+    "id": "prompt-seed-155",
+    "title": "Futuristic Classroom Holograms",
+    "promptText": "Advanced classroom with hologram teachers and AI learning systems, bright futuristic environment",
+    "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 193,
+    "tags": [
+      "smart-classroom",
+      "ai-teacher",
+      "holographic-earth",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": "prompt-seed-156",
+    "title": "Moonlight Horse Rider",
+    "promptText": "Warrior riding black horse through forest under full moon, cinematic fantasy storytelling atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 298,
+    "tags": [
+      "horseback-rider",
+      "full-moon",
+      "forest-path",
+      "legendary"
+    ]
+  },
+  {
+    "id": "prompt-seed-157",
+    "title": "Luxury Watch Advertisement",
+    "promptText": "Close-up cinematic shot of luxury silver watch with water splash effects, premium commercial lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 239,
+    "tags": [
+      "luxury-watch",
+      "splash-effect",
+      "commercial-lighting",
+      "jewelry"
+    ]
+  },
+  {
+    "id": "prompt-seed-158",
+    "title": "Cyberpunk Girl Portrait",
+    "promptText": "Stylish cyberpunk girl with glowing blue hair and futuristic glasses, neon city background, cinematic sci-fi portrait",
+    "imageUrl": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 227,
+    "tags": [
+      "cyber-girl",
+      "blue-hair",
+      "neon-shades",
+      "future-portrait"
+    ]
+  },
+  {
+    "id": "prompt-seed-159",
+    "title": "Temple Elephant Festival",
+    "promptText": "Decorated temple elephant during South Indian festival night, glowing lights, cultural cinematic photography",
+    "imageUrl": "https://images.unsplash.com/photo-1609137144813-979929bc2531?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 229,
+    "tags": [
+      "temple-elephant",
+      "festival-night",
+      "lights-glimmer",
+      "south-india"
+    ]
+  },
+  {
+    "id": "prompt-seed-160",
+    "title": "Cozy Bedroom Rain Mood",
+    "promptText": "Aesthetic bedroom during rainy evening, fairy lights glowing, cozy blanket, cinematic warm atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 198,
+    "tags": [
+      "bedroom-goals",
+      "rainy-evening",
+      "fairy-lights",
+      "warm-nest"
+    ]
+  },
+  {
+    "id": "prompt-seed-161",
+    "title": "Hero Walking Through Fire",
+    "promptText": "Tamil action hero walking slowly through burning background with smoke and sparks, cinematic mass intro scene",
+    "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 305,
+    "tags": [
+      "action-hero",
+      "burning-fire",
+      "mass-intro",
+      "blast-intro"
+    ]
+  },
+  {
+    "id": "prompt-seed-162",
+    "title": "Luxury Supercar Garage",
+    "promptText": "Collection of luxury supercars inside futuristic neon-lit garage, cinematic reflections, millionaire aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 170,
+    "tags": [
+      "supercar-garage",
+      "hypercar",
+      "neon-floor",
+      "millionaire-life"
+    ]
+  },
+  {
+    "id": "prompt-seed-163",
+    "title": "Magical Crystal Cave",
+    "promptText": "Fantasy crystal cave glowing with blue magical light, mystical atmosphere, cinematic fantasy environment",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 229,
+    "tags": [
+      "crystal-cave",
+      "glowing-energy",
+      "magical-stone",
+      "mystical"
+    ]
+  },
+  {
+    "id": "prompt-seed-164",
+    "title": "Sunset River Boat Ride",
+    "promptText": "Traditional wooden boat floating on peaceful river during orange sunset, cinematic travel photography",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 174,
+    "tags": [
+      "river-ride",
+      "wooden-boat",
+      "orange-sunset",
+      "peaceful-ripple"
+    ]
+  },
+  {
+    "id": "prompt-seed-165",
+    "title": "Cyber Ninja Rooftop",
+    "promptText": "Futuristic ninja standing on rooftop overlooking neon city skyline during rainstorm, cinematic action mood",
+    "imageUrl": "https://images.unsplash.com/photo-1618336753974-aae8e04506aa?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 131,
+    "tags": [
+      "cyber-ninja",
+      "rooftop-stand",
+      "neon-skyline",
+      "action-pose"
+    ]
+  },
+  {
+    "id": "prompt-seed-166",
+    "title": "Royal Wedding Hall",
+    "promptText": "Massive Indian wedding hall decorated with golden flowers and chandeliers, cinematic luxury atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 172,
+    "tags": [
+      "royal-marriage",
+      "reception-grandeur",
+      "gold-chandelier",
+      "luxury"
+    ]
+  },
+  {
+    "id": "prompt-seed-167",
+    "title": "Arctic Wolf Portrait",
+    "promptText": "Ultra realistic white wolf standing in snowy forest during storm, cinematic wildlife photography",
+    "imageUrl": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 125,
+    "tags": [
+      "arctic-wolf",
+      "snow-storm",
+      "wildlife-pose",
+      "alpha-wolf"
+    ]
+  },
+  {
+    "id": "prompt-seed-168",
+    "title": "AI Future Hospital",
+    "promptText": "Advanced futuristic hospital with robotic doctors and hologram technology, cinematic sci-fi environment",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 254,
+    "tags": [
+      "sci-fi-med",
+      "robot-surgeon",
+      "holographic-anatomy",
+      "hospital"
+    ]
+  },
+  {
+    "id": "prompt-seed-169",
+    "title": "Dreamy Pink Sky Landscape",
+    "promptText": "Fantasy landscape with glowing pink sky, floating islands, magical waterfalls, cinematic dreamy atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 189,
+    "tags": [
+      "pink-sky",
+      "floating-islands",
+      "wonderland",
+      "dreamy-waterfall"
+    ]
+  },
+  {
+    "id": "prompt-seed-170",
+    "title": "Stylish Leather Jacket Portrait",
+    "promptText": "Young fashion model wearing black leather jacket under dramatic neon lighting, cinematic urban photography",
+    "imageUrl": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 181,
+    "tags": [
+      "fashion-leather",
+      "leather-jacket",
+      "urban-edges",
+      "neon-lit"
+    ]
+  },
+  {
+    "id": "prompt-seed-171",
+    "title": "Futuristic Desert City",
+    "promptText": "Massive futuristic city built in middle of desert with glowing skyscrapers, flying vehicles, orange sunset sky, cinematic science fiction atmosphere, ultra realistic architecture details",
+    "imageUrl": "https://images.unsplash.com/photo-1547234935-80c7145ec969?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 141,
+    "tags": [
+      "desert-city",
+      "oasis-future",
+      "flying-cars",
+      "skyscrapers"
+    ]
+  },
+  {
+    "id": "prompt-seed-172",
+    "title": "Luxury Penthouse Party",
+    "promptText": "Young influencers enjoying luxury rooftop penthouse party at night, neon city skyline background, cinematic lighting, premium lifestyle photography",
+    "imageUrl": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 316,
+    "tags": [
+      "penthouse-party",
+      "rooftop-night",
+      "millionaires",
+      "skyline"
+    ]
+  },
+  {
+    "id": "prompt-seed-173",
+    "title": "Fantasy Ice Warrior",
+    "promptText": "Epic ice warrior standing inside frozen battlefield holding glowing crystal sword, snowstorm atmosphere, cinematic fantasy artwork",
+    "imageUrl": "https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 204,
+    "tags": [
+      "ice-knight",
+      "crystal-sword",
+      "frozen-ground",
+      "snowstorm"
+    ]
+  },
+  {
+    "id": "prompt-seed-174",
+    "title": "Rainy Neon Bus Stop",
+    "promptText": "Stylish young woman waiting at neon-lit bus stop during heavy rain, cinematic reflections, emotional cyberpunk mood",
+    "imageUrl": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 238,
+    "tags": [
+      "bus-stop",
+      "heavy-rain",
+      "neon-puddle",
+      "cyber-melancholy"
+    ]
+  },
+  {
+    "id": "prompt-seed-175",
+    "title": "Ancient Indian Palace Hall",
+    "promptText": "Grand royal Indian palace interior with giant pillars, golden chandeliers, cinematic warm lighting, ultra detailed architecture",
+    "imageUrl": "https://images.unsplash.com/photo-1544735716-392bf2489ffa?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 191,
+    "tags": [
+      "palace-hall",
+      "royal-pillars",
+      "gold-chandelier",
+      "rajasthan"
+    ]
+  },
+  {
+    "id": "prompt-seed-176",
+    "title": "Space Soldier Portrait",
+    "promptText": "Futuristic space soldier wearing advanced glowing armor inside spaceship corridor, cinematic sci-fi composition",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 135,
+    "tags": [
+      "space-marine",
+      "cyber-suit",
+      "spaceship-hall",
+      "combat-ready"
+    ]
+  },
+  {
+    "id": "prompt-seed-177",
+    "title": "Tropical Jungle Cabin",
+    "promptText": "Cozy wooden cabin hidden inside tropical rainforest with waterfalls nearby, warm cinematic atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 149,
+    "tags": [
+      "jungle-cabin",
+      "waterfalls",
+      "tropical-forest",
+      "hidden-paradise"
+    ]
+  },
+  {
+    "id": "prompt-seed-178",
+    "title": "Hero Standing in Storm",
+    "promptText": "Powerful Tamil movie hero standing under thunderstorm with lightning behind him, cinematic mass action pose",
+    "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 165,
+    "tags": [
+      "thunder-pose",
+      "tamil-action",
+      "movie-lightning",
+      "mass-entry"
+    ]
+  },
+  {
+    "id": "prompt-seed-179",
+    "title": "Luxury Gold Car Commercial",
+    "promptText": "Golden luxury sports car driving through neon tunnel, cinematic reflections, premium advertisement style",
+    "imageUrl": "https://images.unsplash.com/photo-1542282088-fe8426682b8f?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 314,
+    "tags": [
+      "golden-supercar",
+      "neon-tunnel",
+      "car-commercial",
+      "millionaire"
+    ]
+  },
+  {
+    "id": "prompt-seed-180",
+    "title": "Fantasy Moon Princess",
+    "promptText": "Beautiful fantasy princess standing under giant glowing moon wearing silver gown, magical atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1518156677180-95a2893f3e9f?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 245,
+    "tags": [
+      "moon-princess",
+      "silver-gown",
+      "glowing-moon",
+      "enchanted"
+    ]
+  },
+  {
+    "id": "prompt-seed-181",
+    "title": "Futuristic Coffee Shop",
+    "promptText": "Modern AI-powered coffee shop with robotic baristas and hologram menu screens, cinematic cyberpunk interior",
+    "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 262,
+    "tags": [
+      "robot-barista",
+      "hologram-menu",
+      "future-cafe",
+      "cyberpunk"
+    ]
+  },
+  {
+    "id": "prompt-seed-182",
+    "title": "Royal Tiger Throne",
+    "promptText": "Massive tiger sitting beside king throne inside dark palace hall, cinematic royal fantasy atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 168,
+    "tags": [
+      "tiger-throne",
+      "king-palace",
+      "royal-fantasy",
+      "predator"
+    ]
+  },
+  {
+    "id": "prompt-seed-183",
+    "title": "Dreamy Sakura Street",
+    "promptText": "Japanese cherry blossom street during sunset with soft pink petals falling, cinematic romantic atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 128,
+    "tags": [
+      "sakura-petals",
+      "cherry-blossom",
+      "sunset-japan",
+      "romantic"
+    ]
+  },
+  {
+    "id": "prompt-seed-184",
+    "title": "Black and Red Portrait",
+    "promptText": "Stylish cinematic portrait using black and red lighting, dramatic shadows, fashion photography aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 213,
+    "tags": [
+      "red-glares",
+      "moody-shadows",
+      "high-fashion",
+      "noir"
+    ]
+  },
+  {
+    "id": "prompt-seed-185",
+    "title": "Volcano Dragon Scene",
+    "promptText": "Gigantic dragon flying above erupting volcano with lava explosions, cinematic fantasy action artwork",
+    "imageUrl": "https://images.unsplash.com/photo-1518156677180-95a2893f3e9f?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 246,
+    "tags": [
+      "fire-dragon",
+      "volcano-lava",
+      "epic-beast",
+      "fantasy-action"
+    ]
+  },
+  {
+    "id": "prompt-seed-186",
+    "title": "Futuristic Airport Terminal",
+    "promptText": "Ultra modern futuristic airport with hologram directions and flying taxis outside windows, cinematic sci-fi design",
+    "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 219,
+    "tags": [
+      "future-airport",
+      "flying-capsules",
+      "holograms",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": "prompt-seed-187",
+    "title": "Cozy Rain Balcony",
+    "promptText": "Warm aesthetic balcony scene during rainy evening with glowing fairy lights and coffee cup, cinematic cozy atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 313,
+    "tags": [
+      "rainy-balcony",
+      "fairy-lights",
+      "nesting-cozy",
+      "caffeine-love"
+    ]
+  },
+  {
+    "id": "prompt-seed-188",
+    "title": "Temple Corridor Photography",
+    "promptText": "Ancient temple corridor with golden deepam lights glowing, spiritual cinematic atmosphere, ultra detailed carvings",
+    "imageUrl": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 142,
+    "tags": [
+      "temple-corridor",
+      "golden-diyas",
+      "ancient-carvings",
+      "devotional-fog"
+    ]
+  },
+  {
+    "id": "prompt-seed-189",
+    "title": "Luxury Hotel Lobby",
+    "promptText": "Massive luxury hotel lobby with golden chandeliers, elegant interior design, cinematic lifestyle photography",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 261,
+    "tags": [
+      "grand-lobby",
+      "luxury-hotel",
+      "interiors",
+      "chandelier"
+    ]
+  },
+  {
+    "id": "prompt-seed-190",
+    "title": "Cyberpunk Street Racer",
+    "promptText": "Street racer leaning on modified neon sports car under rainy city lights, cinematic cyberpunk mood",
+    "imageUrl": "https://images.unsplash.com/photo-1542282088-fe8426682b8f?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 217,
+    "tags": [
+      "street-racer",
+      "modified-racecar",
+      "rainy-streets",
+      "cyberpunk"
+    ]
+  },
+  {
+    "id": "prompt-seed-191",
+    "title": "Snow Mountain Temple",
+    "promptText": "Ancient temple built on snowy mountain peak during sunrise, mystical cinematic atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1545128485-c400e7702796?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 265,
+    "tags": [
+      "himalayas",
+      "snowy-peak",
+      "temple-sunrise",
+      "mystical-sanctuary"
+    ]
+  },
+  {
+    "id": "prompt-seed-192",
+    "title": "AI Human Transformation",
+    "promptText": "Half-human half-robot futuristic portrait with glowing circuits and cybernetic eyes, cinematic sci-fi photography",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 183,
+    "tags": [
+      "cybernetic-half",
+      "glowing-circuits",
+      "robot-skin",
+      "transhuman"
+    ]
+  },
+  {
+    "id": "prompt-seed-193",
+    "title": "Village Farmer Sunset",
+    "promptText": "Traditional Indian farmer walking through green field during golden sunset, cinematic rural storytelling atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 271,
+    "tags": [
+      "indian-agriculture",
+      "golden-sunset",
+      "village-life",
+      "pastoral"
+    ]
+  },
+  {
+    "id": "prompt-seed-194",
+    "title": "Underwater Shark Scene",
+    "promptText": "Massive shark swimming through deep blue ocean with cinematic underwater lighting, ultra realistic marine photography",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 124,
+    "tags": [
+      "deep-ocean-shark",
+      "marine-hunter",
+      "underwater-beams",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "prompt-seed-195",
+    "title": "Fantasy Crystal Sword",
+    "promptText": "Magical crystal sword floating in ancient ruins surrounded by glowing blue energy, cinematic fantasy scene",
+    "imageUrl": "https://images.unsplash.com/photo-1548102245-c7bf7c569ff4?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 207,
+    "tags": [
+      "crystal-sword",
+      "floating-blade",
+      "temple-ruins",
+      "magical-spell"
+    ]
+  },
+  {
+    "id": "prompt-seed-196",
+    "title": "Neon Fashion Hallway",
+    "promptText": "Fashion model walking through glowing neon hallway with cinematic reflections and futuristic vibe",
+    "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 205,
+    "tags": [
+      "neon-hallway",
+      "catwalk-glow",
+      "cyber-grid",
+      "fashion-futuristic"
+    ]
+  },
+  {
+    "id": "prompt-seed-197",
+    "title": "Luxury Beach Resort",
+    "promptText": "Beautiful luxury beach resort during sunset with infinity pool and glowing palm trees, cinematic travel photography",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 229,
+    "tags": [
+      "beach-resort",
+      "infinity-pool",
+      "sunset-glow",
+      "ocean-villa"
+    ]
+  },
+  {
+    "id": "prompt-seed-198",
+    "title": "Ancient Warrior Army",
+    "promptText": "Epic medieval warrior army standing on battlefield before war, cinematic dramatic clouds, fantasy movie scene",
+    "imageUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 180,
+    "tags": [
+      "medieval-military",
+      "knights-battle",
+      "dramatic-clouds",
+      "action-prep"
+    ]
+  },
+  {
+    "id": "prompt-seed-199",
+    "title": "Futuristic Indian Train",
+    "promptText": "Advanced high-speed futuristic train moving through neon-lit Indian city during rainy night",
+    "imageUrl": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 195,
+    "tags": [
+      "cyberpunk-metro",
+      "india-future",
+      "neon-track",
+      "rainy-ride"
+    ]
+  },
+  {
+    "id": "prompt-seed-200",
+    "title": "Golden Eagle Portrait",
+    "promptText": "Majestic golden eagle flying above mountains during sunrise, cinematic wildlife photography",
+    "imageUrl": "https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 228,
+    "tags": [
+      "golden-eagle",
+      "eagle-flight",
+      "mountain-sunrise",
+      "feather-detail"
+    ]
+  },
+  {
+    "id": "prompt-seed-201",
+    "title": "Stylish Hoodie Fashion",
+    "promptText": "Young streetwear model wearing oversized hoodie under cinematic urban lighting, trendy Instagram fashion vibe",
+    "imageUrl": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 221,
+    "tags": [
+      "oversized-hoodie",
+      "streetwear",
+      "urban-chic",
+      "retro-vibe"
+    ]
+  },
+  {
+    "id": "prompt-seed-202",
+    "title": "Fire Temple Fantasy",
+    "promptText": "Ancient fire temple glowing with magical lava energy and cinematic fantasy atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1561361513-2d000a50f0db?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 250,
+    "tags": [
+      "lava-grotto",
+      "fire-temple",
+      "volcanic-sanctuary",
+      "glowing-energy"
+    ]
+  },
+  {
+    "id": "prompt-seed-203",
+    "title": "Space Colony Night View",
+    "promptText": "Huge futuristic colony on another planet glowing under galaxy sky, cinematic sci-fi environment",
+    "imageUrl": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 140,
+    "tags": [
+      "planetary-outpost",
+      "space-colony",
+      "galaxy-sky",
+      "cyber-bubble"
+    ]
+  },
+  {
+    "id": "prompt-seed-204",
+    "title": "Rain Reflection Photography",
+    "promptText": "Young man walking through rainy road with colorful neon reflections on puddles, cinematic mood photography",
+    "imageUrl": "https://images.unsplash.com/photo-1544735716-392bf2489ffa?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 216,
+    "tags": [
+      "rainy-sidewalk",
+      "neon-puddles",
+      "street-portrait",
+      "reflections"
+    ]
+  },
+  {
+    "id": "prompt-seed-205",
+    "title": "Luxury Jewelry Portrait",
+    "promptText": "Elegant woman wearing diamond jewelry under dramatic luxury lighting, premium fashion photography",
+    "imageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 277,
+    "tags": [
+      "diamond-diamonds",
+      "lux-sparkles",
+      "dramatic-glares",
+      "fashion-editorial"
+    ]
+  },
+  {
+    "id": "prompt-seed-206",
+    "title": "Cyber Samurai Rooftop",
+    "promptText": "Cyberpunk samurai standing on skyscraper rooftop overlooking neon city during storm",
+    "imageUrl": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 138,
+    "tags": [
+      "cyber-samurai",
+      "rooftop-sword",
+      "storm-night",
+      "future-skyline"
+    ]
+  },
+  {
+    "id": "prompt-seed-207",
+    "title": "Dreamy Candle Room",
+    "promptText": "Aesthetic room filled with glowing candles and warm cinematic atmosphere, fantasy mood photography",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 218,
+    "tags": [
+      "candles-glow",
+      "cozy-sanctuary",
+      "aesthetic-evening",
+      "warmth"
+    ]
+  },
+  {
+    "id": "prompt-seed-208",
+    "title": "Black Horse Desert Ride",
+    "promptText": "Warrior riding black horse through desert during dramatic sunset, cinematic fantasy storytelling",
+    "imageUrl": "https://images.unsplash.com/photo-1618336753974-aae8e04506aa?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 313,
+    "tags": [
+      "black-stallion",
+      "camelot-desert",
+      "sunset-ride",
+      "historical-vibe"
+    ]
+  },
+  {
+    "id": "prompt-seed-209",
+    "title": "Futuristic Smart Bedroom",
+    "promptText": "Advanced smart bedroom with hologram technology and neon ambient lighting, cinematic interior design",
+    "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 162,
+    "tags": [
+      "smart-bedroom",
+      "floating-holograms",
+      "neon-corners",
+      "interiors"
+    ]
+  },
+  {
+    "id": "prompt-seed-210",
+    "title": "Temple Festival Fireworks",
+    "promptText": "Grand Indian temple festival with colorful fireworks lighting the night sky, cinematic celebration atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1581888227599-779811939961?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 187,
+    "tags": [
+      "temple-fireworks",
+      "diwali-splashes",
+      "lights-celebration",
+      "festive"
+    ]
+  },
+  {
+    "id": "prompt-seed-211",
+    "title": "Ice Dragon Cave",
+    "promptText": "Massive ice dragon sleeping inside frozen crystal cave, cinematic fantasy environment",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 216,
+    "tags": [
+      "ice-dragon",
+      "glacier-vault",
+      "sleeping-monster",
+      "frozen-crystal"
+    ]
+  },
+  {
+    "id": "prompt-seed-212",
+    "title": "Neon Basketball Player",
+    "promptText": "Basketball player holding glowing ball under neon street court lights, cinematic sports photography",
+    "imageUrl": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 144,
+    "tags": [
+      "neon-court",
+      "baller-dunk",
+      "street-play",
+      "sports-action"
+    ]
+  },
+  {
+    "id": "prompt-seed-213",
+    "title": "Luxury Office Portrait",
+    "promptText": "Young entrepreneur standing inside modern luxury office with skyline background, cinematic business aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 177,
+    "tags": [
+      "luxury-ceo",
+      "office-skyline",
+      "millionaire-suite",
+      "business-epic"
+    ]
+  },
+  {
+    "id": "prompt-seed-214",
+    "title": "Rainy Tea Shop Scene",
+    "promptText": "Traditional roadside tea shop glowing warmly during monsoon rain, cinematic Indian storytelling photography",
+    "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 305,
+    "tags": [
+      "rainy-tea",
+      "cutting-chai",
+      "monsoon-grotto",
+      "warm-glow"
+    ]
+  },
+  {
+    "id": "prompt-seed-215",
+    "title": "Futuristic Robot Army",
+    "promptText": "Advanced humanoid robots marching through cyberpunk battlefield, cinematic science fiction action scene",
+    "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 227,
+    "tags": [
+      "cyborg-infantry",
+      "marching-robots",
+      "wasteland-cyber",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": "prompt-seed-216",
+    "title": "Dreamy Lavender Sunset",
+    "promptText": "Lavender flower field under glowing orange sunset sky, romantic cinematic atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 137,
+    "tags": [
+      "lavender-field",
+      "orange-sunset",
+      "romantic-nature",
+      "blooms-glow"
+    ]
+  },
+  {
+    "id": "prompt-seed-217",
+    "title": "Royal Queen Balcony Scene",
+    "promptText": "Elegant queen standing on palace balcony during sunset wearing luxury royal dress, cinematic fantasy vibe",
+    "imageUrl": "https://images.unsplash.com/photo-1544735716-392bf2489ffa?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 188,
+    "tags": [
+      "royal-queen",
+      "palace-balcony",
+      "sunset- gown",
+      "renaissance"
+    ]
+  },
+  {
+    "id": "prompt-seed-218",
+    "title": "Underwater Treasure Scene",
+    "promptText": "Ancient treasure chest glowing underwater surrounded by colorful fish, cinematic fantasy environment",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 302,
+    "tags": [
+      "lost-treasure",
+      "underwater-chest",
+      "gold-coins",
+      "coral-reef"
+    ]
+  },
+  {
+    "id": "prompt-seed-219",
+    "title": "Stylish Sunglasses Portrait",
+    "promptText": "Fashion portrait of confident model wearing luxury sunglasses under dramatic studio lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 292,
+    "tags": [
+      "designer-shades",
+      "cool-portrait",
+      "studio-flashes",
+      "high-end"
+    ]
+  },
+  {
+    "id": "prompt-seed-220",
+    "title": "Galaxy Road Trip",
+    "promptText": "Luxury car driving through highway beneath giant glowing galaxy sky, cinematic fantasy travel photography",
+    "imageUrl": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 240,
+    "tags": [
+      "nebula-drive",
+      "futuristic-transit",
+      "star-systems",
+      "milky-way"
+    ]
+  },
+  {
+    "id": "prompt-seed-221",
+    "title": "Futuristic Shopping Mall",
+    "promptText": "Advanced cyberpunk shopping mall with hologram advertisements and robotic assistants",
+    "imageUrl": "https://images.unsplash.com/photo-1515621061946-eff1c2a352bd?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 137,
+    "tags": [
+      "future-mall",
+      "robot-helpers",
+      "holographic-ads",
+      "neon-escalators"
+    ]
+  },
+  {
+    "id": "prompt-seed-222",
+    "title": "Fire Sword Hero Scene",
+    "promptText": "Fantasy hero holding glowing fire sword while standing in smoky battlefield, cinematic action atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1618336753974-aae8e04506aa?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 136,
+    "tags": [
+      "fire-blade",
+      "battlefield-smog",
+      "legendary-hero",
+      "dramatic-poses"
+    ]
+  },
+  {
+    "id": "prompt-seed-223",
+    "title": "Cozy Reading Corner",
+    "promptText": "Warm reading corner with books, fairy lights, coffee mug, rainy window atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 251,
+    "tags": [
+      "reading-nest",
+      "fairy-lights",
+      "coffee-mug",
+      "bookshelves"
+    ]
+  },
+  {
+    "id": "prompt-seed-224",
+    "title": "Neon Skate Park",
+    "promptText": "Teen skateboarder performing tricks inside glowing neon skate park at night",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 153,
+    "tags": [
+      "neon-shallows",
+      "skatepark-night",
+      "led-edges",
+      "skatework"
+    ]
+  },
+  {
+    "id": "prompt-seed-225",
+    "title": "Arctic Adventure Camp",
+    "promptText": "Explorers camping in snowy Arctic environment with glowing northern lights above",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 144,
+    "tags": [
+      "aurora-borealis",
+      "arctic-camp",
+      "north-pole",
+      "snowy-tents"
+    ]
+  },
+  {
+    "id": "prompt-seed-226",
+    "title": "Temple Elephant Portrait",
+    "promptText": "Decorated temple elephant with golden ornaments under cinematic lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1561361513-2d000a50f0db?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 144,
+    "tags": [
+      "temple-elephant",
+      "gold-canopy",
+      "cultural-india",
+      "celebrations"
+    ]
+  },
+  {
+    "id": "prompt-seed-227",
+    "title": "Futuristic Drone Highway",
+    "promptText": "Flying drones moving across futuristic city highways during rainy cyberpunk night",
+    "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 313,
+    "tags": [
+      "drone-lanes",
+      "flying-courier",
+      "cyber-grid",
+      "rainy-towers"
+    ]
+  },
+  {
+    "id": "prompt-seed-228",
+    "title": "Fantasy Mermaid Portrait",
+    "promptText": "Beautiful mermaid sitting on glowing rock beside ocean under moonlight",
+    "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 141,
+    "tags": [
+      "mythological-mermaid",
+      "lunar-glimmer",
+      "sea-shell-glow",
+      "mystical"
+    ]
+  },
+  {
+    "id": "prompt-seed-229",
+    "title": "Luxury Fashion Staircase",
+    "promptText": "Model walking down giant luxury staircase wearing elegant black designer outfit",
+    "imageUrl": "https://images.unsplash.com/photo-1544735716-392bf2489ffa?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 285,
+    "tags": [
+      "marble-staircase",
+      "luxury-gown",
+      "editorial-modeling",
+      "dramatic-glares"
+    ]
+  },
+  {
+    "id": "prompt-seed-230",
+    "title": "Village River Morning",
+    "promptText": "Traditional village river scene during sunrise with mist atmosphere and cinematic reflections",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 289,
+    "tags": [
+      "village-river",
+      "foggy-sunrise",
+      "riverbank",
+      "peaceful-morning"
+    ]
+  },
+  {
+    "id": "prompt-seed-231",
+    "title": "Cyberpunk Motorcycle Chase",
+    "promptText": "High-speed futuristic motorcycle chase through neon-lit city streets during rainstorm",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 243,
+    "tags": [
+      "superbike-chase",
+      "cyberpunk-cop",
+      "high-speed",
+      "neon-sparks"
+    ]
+  },
+  {
+    "id": "prompt-seed-232",
+    "title": "Golden Palace Corridor",
+    "promptText": "Ancient golden palace hallway with cinematic warm lighting and detailed royal decorations",
+    "imageUrl": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 319,
+    "tags": [
+      "palace-hallway",
+      "rajasthani-royal",
+      "chandeliers",
+      "gold-glow"
+    ]
+  },
+  {
+    "id": "prompt-seed-233",
+    "title": "Space Explorer Helmet Reflection",
+    "promptText": "Astronaut helmet reflecting giant galaxy and alien planet landscape, cinematic sci-fi detail",
+    "imageUrl": "https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 257,
+    "tags": [
+      "cosmonaut",
+      "visor-reflection",
+      "distant-galaxy",
+      "spacedust"
+    ]
+  },
+  {
+    "id": "prompt-seed-234",
+    "title": "Jungle Temple Adventure",
+    "promptText": "Explorer discovering hidden jungle temple surrounded by waterfalls and mist",
+    "imageUrl": "https://images.unsplash.com/photo-1609137144813-979929bc2531?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 224,
+    "tags": [
+      "ruins-jungle",
+      "waterfalls-mist",
+      "ancient-temple",
+      "wild-journey"
+    ]
+  },
+  {
+    "id": "prompt-seed-235",
+    "title": "Stylish Denim Portrait",
+    "promptText": "Fashion portrait featuring oversized denim jacket and dramatic urban lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 180,
+    "tags": [
+      "oversized-denim",
+      "retro-portrait",
+      "city-lights",
+      "urban-edges"
+    ]
+  },
+  {
+    "id": "prompt-seed-236",
+    "title": "Fantasy Wolf Warrior",
+    "promptText": "Powerful wolf warrior standing under full moon surrounded by magical blue aura",
+    "imageUrl": "https://images.unsplash.com/photo-1548102245-c7bf7c569ff4?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 263,
+    "tags": [
+      "werewolf-aura",
+      "lunar-energy",
+      "glowing-eyes",
+      "mystical-knight"
+    ]
+  },
+  {
+    "id": "prompt-seed-237",
+    "title": "Neon Gaming Tournament",
+    "promptText": "Professional gamers competing inside futuristic neon esports arena, cinematic energy",
+    "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 177,
+    "tags": [
+      "esports-championship",
+      "led-arena",
+      "neon-headsets",
+      "clash"
+    ]
+  },
+  {
+    "id": "prompt-seed-238",
+    "title": "Rainy Bridge Cinematic Shot",
+    "promptText": "Young traveler standing alone on bridge during heavy rain and glowing city lights",
+    "imageUrl": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 174,
+    "tags": [
+      "rainy-bridge",
+      "glowing-skies",
+      "city-loner",
+      "teal-and-orange"
+    ]
+  },
+  {
+    "id": "prompt-seed-239",
+    "title": "Luxury Bathroom Interior",
+    "promptText": "Modern luxury bathroom with marble textures, golden lights, cinematic architecture photography",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 172,
+    "tags": [
+      "marble-bathroom",
+      "gold-faucets",
+      "tub-glow",
+      "interior-architect"
+    ]
+  },
+  {
+    "id": "prompt-seed-240",
+    "title": "Dragon Castle Night Scene",
+    "promptText": "Fantasy castle protected by giant dragon under stormy moonlit sky",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 289,
+    "tags": [
+      "dragon-sentinel",
+      "fantasy-citadel",
+      "gothic-storm",
+      "moonlight"
+    ]
+  },
+  {
+    "id": "prompt-seed-241",
+    "title": "Futuristic Delivery Robot",
+    "promptText": "Cute delivery robot moving through futuristic Indian street market at night",
+    "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 289,
+    "tags": [
+      "delivery-droid",
+      "indian-cyber",
+      "neon-stalls",
+      "glowing-lights"
+    ]
+  },
+  {
+    "id": "prompt-seed-242",
+    "title": "Fireworks Rooftop Couple",
+    "promptText": "Romantic couple watching fireworks from rooftop during night celebration",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 168,
+    "tags": [
+      "rooftop-fireworks",
+      "romantic-couple",
+      "night-sky",
+      "celebrations"
+    ]
+  },
+  {
+    "id": "prompt-seed-243",
+    "title": "Stylish Black Suit Portrait",
+    "promptText": "Elegant fashion portrait with black suit, cinematic shadows, luxury magazine aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 217,
+    "tags": [
+      "black-tie",
+      "gorgeous-portrait",
+      "studio-shadow",
+      "high-end-look"
+    ]
+  },
+  {
+    "id": "prompt-seed-244",
+    "title": "Underwater City Lights",
+    "promptText": "Massive glowing underwater city with futuristic architecture and cinematic atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 252,
+    "tags": [
+      "sea-floor-city",
+      "glowing-domes",
+      "subaquatic-cyber",
+      "future-ocean"
+    ]
+  },
+  {
+    "id": "prompt-seed-245",
+    "title": "Snowfall Railway Station",
+    "promptText": "Vintage railway station during snowfall with warm glowing lights and cinematic mood",
+    "imageUrl": "https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 285,
+    "tags": [
+      "railway-snow",
+      "train-station",
+      "glowing-lamps",
+      "steam-mood"
+    ]
+  },
+  {
+    "id": "prompt-seed-246",
+    "title": "Cyberpunk Police Officer",
+    "promptText": "Futuristic police officer standing in neon city alley with glowing armor and hologram screens",
+    "imageUrl": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 249,
+    "tags": [
+      "cyber-cop",
+      "glowing-armor",
+      "holographic-badge",
+      "rainy-alley"
+    ]
+  },
+  {
+    "id": "prompt-seed-247",
+    "title": "Royal Crown Close-Up",
+    "promptText": "Macro cinematic shot of ancient golden crown with gemstone details and dramatic lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 122,
+    "tags": [
+      "jeweled-crown",
+      "royal-artifacts",
+      "golden-rubies",
+      "regal-macro"
+    ]
+  },
+  {
+    "id": "prompt-seed-248",
+    "title": "Fantasy Floating Castle",
+    "promptText": "Massive floating fantasy castle above clouds with waterfalls and glowing lights",
+    "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 226,
+    "tags": [
+      "floating-palace",
+      "cloud-islands",
+      "paradise-waterfalls",
+      "glowing-spire"
+    ]
+  },
+  {
+    "id": "prompt-seed-249",
+    "title": "Luxury Rooftop Cinema",
+    "promptText": "Open rooftop cinema setup during night with skyline view and warm aesthetic lights",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 185,
+    "tags": [
+      "rooftop-movie",
+      "comfy-beanbags",
+      "skyline-view",
+      "aesthetic-evening"
+    ]
+  },
+  {
+    "id": "prompt-seed-250",
+    "title": "Rainforest Adventure Jeep",
+    "promptText": "Adventure jeep driving through tropical rainforest during heavy rain, cinematic travel atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 248,
+    "tags": [
+      "adventure-jeep",
+      "jungle-safari",
+      "monsoon-rain",
+      "muddy-roads"
+    ]
+  },
+  {
+    "id": "prompt-seed-251",
+    "title": "AI Virtual Reality Classroom",
+    "promptText": "Students learning inside futuristic virtual reality classroom with hologram technology",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 133,
+    "tags": [
+      "vr-goggles",
+      "interactive-learning",
+      "future-classroom",
+      "3d-holograms"
+    ]
+  },
+  {
+    "id": "prompt-seed-252",
+    "title": "Golden Sunset Bike Ride",
+    "promptText": "Young biker riding along coastal highway during glowing orange sunset",
+    "imageUrl": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf0a3?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 161,
+    "tags": [
+      "coastal-biker",
+      "highway- sunset",
+      "freedom-ride",
+      "motorcycle"
+    ]
+  },
+  {
+    "id": "prompt-seed-253",
+    "title": "Fantasy Phoenix Warrior",
+    "promptText": "Warrior surrounded by giant phoenix wings made of fire, cinematic fantasy composition",
+    "imageUrl": "https://images.unsplash.com/photo-1618336753974-aae8e04506aa?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 249,
+    "tags": [
+      "phoenix-wings",
+      "fire-armor",
+      "blazing-energy",
+      "epic-warrior"
+    ]
+  },
+  {
+    "id": "prompt-seed-254",
+    "title": "Neon Blue Fashion Studio",
+    "promptText": "Fashion photoshoot inside glowing neon blue studio with futuristic lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 229,
+    "tags": [
+      "neon-blue",
+      "studio-glare",
+      "editorial-art",
+      "future-trends"
+    ]
+  },
+  {
+    "id": "prompt-seed-255",
+    "title": "Ancient Stone Temple",
+    "promptText": "Mysterious ancient stone temple hidden in mountains with cinematic fog atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1545128485-c400e7702796?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 310,
+    "tags": [
+      "stone-temple",
+      "foggy-valleys",
+      "mystical-sanctuary",
+      "spiritual-quest"
+    ]
+  },
+  {
+    "id": "prompt-seed-256",
+    "title": "Luxury Champagne Celebration",
+    "promptText": "Elegant luxury celebration scene with champagne glasses and golden confetti",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 137,
+    "tags": [
+      "champagne-toast",
+      "vip-gala",
+      "golden-confetti",
+      "midnight-glamour"
+    ]
+  },
+  {
+    "id": "prompt-seed-257",
+    "title": "Space City Skyline",
+    "promptText": "Gigantic futuristic space city glowing beneath galaxy sky, cinematic sci-fi environment",
+    "imageUrl": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 127,
+    "tags": [
+      "milky-way-city",
+      "orbiting-skylab",
+      "glowing-hubs",
+      "nebula-view"
+    ]
+  },
+  {
+    "id": "prompt-seed-258",
+    "title": "Village Festival Night Market",
+    "promptText": "Traditional Indian night market filled with colorful festival lights and cultural atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 231,
+    "tags": [
+      "traditional-market",
+      "mela-festival",
+      "colorful-diyas",
+      "tamil-bazar"
+    ]
+  },
+  {
+    "id": "prompt-seed-259",
+    "title": "Ice Queen Throne Scene",
+    "promptText": "Fantasy ice queen sitting on crystal throne surrounded by snowstorm",
+    "imageUrl": "https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 162,
+    "tags": [
+      "frozen-empress",
+      "ice-throne",
+      "glacier-palace",
+      "blizzard"
+    ]
+  },
+  {
+    "id": "prompt-seed-260",
+    "title": "Stylish Airport Lounge",
+    "promptText": "Luxury airport lounge with cinematic modern design and elegant traveler aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 235,
+    "tags": [
+      "luxury-lounge",
+      "private-terminal",
+      "vip-traveler",
+      "contemporary"
+    ]
+  },
+  {
+    "id": "prompt-seed-261",
+    "title": "Cyberpunk VR Gamer",
+    "promptText": "Teen gamer wearing futuristic VR headset inside neon RGB room",
+    "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 166,
+    "tags": [
+      "vr-goggles",
+      "cyberpunk-gamer",
+      "led-rgb",
+      "metaverse-portal"
+    ]
+  },
+  {
+    "id": "prompt-seed-262",
+    "title": "Moonlight Ocean View",
+    "promptText": "Peaceful ocean waves glowing under giant full moon with cinematic reflections",
+    "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 143,
+    "tags": [
+      "full-moon",
+      "ocean-ripples",
+      "lunar-beams",
+      "peaceful-shoreline"
+    ]
+  },
+  {
+    "id": "prompt-seed-263",
+    "title": "Futuristic Medical Lab",
+    "promptText": "Advanced futuristic laboratory with hologram medical screens and robotic scientists",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 274,
+    "tags": [
+      "med-future",
+      "robotic-labs",
+      "holographic-data",
+      "gene-editing"
+    ]
+  },
+  {
+    "id": "prompt-seed-264",
+    "title": "Royal Sword Ceremony",
+    "promptText": "Ancient king holding legendary glowing sword during royal ceremony, cinematic fantasy atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 281,
+    "tags": [
+      "legendary-blade",
+      "sword-coronation",
+      "medieval-king",
+      "mystical-glow"
+    ]
+  },
+  {
+    "id": "prompt-seed-265",
+    "title": "Rainy Urban Street Photography",
+    "promptText": "Moody cinematic urban street scene during rain with colorful neon reflections",
+    "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 215,
+    "tags": [
+      "puddle-mirror",
+      "urban-rain",
+      "neon-signs",
+      "city-mood"
+    ]
+  },
+  {
+    "id": "prompt-seed-266",
+    "title": "Luxury Black Marble Kitchen",
+    "promptText": "Modern black marble kitchen with cinematic warm lighting and elegant interior design",
+    "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 286,
+    "tags": [
+      "dark-marble",
+      "luxury-kitchen",
+      "ambient-pendant",
+      "interior-chic"
+    ]
+  },
+  {
+    "id": "prompt-seed-267",
+    "title": "Fantasy Angel Battlefield",
+    "promptText": "Powerful angel warrior standing in ruined battlefield with glowing wings and cinematic light rays",
+    "imageUrl": "https://images.unsplash.com/photo-1548102245-c7bf7c569ff4?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 301,
+    "tags": [
+      "angelic-knight",
+      "feathered-wings",
+      "battle-ruins",
+      "divine-rays"
+    ]
+  },
+  {
+    "id": "prompt-seed-268",
+    "title": "Golden Desert Palace",
+    "promptText": "Massive golden palace in middle of desert under dramatic sunset sky",
+    "imageUrl": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 145,
+    "tags": [
+      "desert-citadel",
+      "golden-dome",
+      "rajasthani-glow",
+      "historical-scale"
+    ]
+  },
+  {
+    "id": "prompt-seed-269",
+    "title": "Stylish Monochrome Portrait",
+    "promptText": "High-contrast monochrome fashion portrait with dramatic lighting and realistic skin detail",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 278,
+    "tags": [
+      "monochrome",
+      "fashion-editorial",
+      "chiaroscuro",
+      "high-portrait"
+    ]
+  },
+  {
+    "id": "prompt-seed-270",
+    "title": "Futuristic Skyline Sunset",
+    "promptText": "Ultra modern futuristic skyline glowing during orange sunset with flying vehicles and cinematic atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 266,
+    "tags": [
+      "future-skytop",
+      "flying-capsules",
+      "sunset-glow",
+      "metropolis"
+    ]
+  },
+  {
+    "id": "prompt-seed-271",
+    "title": "Neon Duo Portrait",
+    "promptText": "Use my uploaded image and the user image to create a cinematic neon portrait, both standing back-to-back in a rainy cyberpunk street at night, glowing blue and pink neon signs, wet road reflections, stylish streetwear outfits, dramatic shadows, ultra realistic skin texture, shallow depth of field, movie poster atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 220,
+    "tags": [
+      "neon-duo",
+      "cyberpunk",
+      "rainy-street",
+      "back-to-back"
+    ]
+  },
+  {
+    "id": "prompt-seed-272",
+    "title": "Royal King & Queen Edit",
+    "promptText": "Transform my image and the user image into a royal king and queen standing inside a luxurious golden palace, wearing traditional royal Indian outfits with heavy jewelry, cinematic warm lighting, majestic atmosphere, ultra realistic fantasy realism",
+    "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 138,
+    "tags": [
+      "royal",
+      "golden-palace",
+      "traditional",
+      "king-queen"
+    ]
+  },
+  {
+    "id": "prompt-seed-273",
+    "title": "Luxury Car Photoshoot",
+    "promptText": "Place my image and the user image beside a matte black Lamborghini under neon city lights at midnight, cinematic reflections on wet road, stylish luxury outfits, Instagram billionaire aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf0a3?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 134,
+    "tags": [
+      "lamborghini",
+      "sports-car",
+      "midnight-ride",
+      "millionaire"
+    ]
+  },
+  {
+    "id": "prompt-seed-274",
+    "title": "Romantic Rain Scene",
+    "promptText": "Create emotional cinematic rain scene using my image and the user image walking together under transparent umbrella, warm street lights glowing behind, realistic rain effects, Bollywood movie atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 286,
+    "tags": [
+      "romantic-rain",
+      "umbrella",
+      "bollywood",
+      "emotional-portrait"
+    ]
+  },
+  {
+    "id": "prompt-seed-275",
+    "title": "Cyberpunk Hero Duo",
+    "promptText": "Convert my image and the user image into futuristic cyberpunk heroes standing in neon-lit Chennai street, hologram ads, glowing jackets, cinematic smoke, sci-fi action poster vibe",
+    "imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 186,
+    "tags": [
+      "cyberpunk-chennai",
+      "holograms",
+      "glow-jackets",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": "prompt-seed-276",
+    "title": "Temple Festival Edit",
+    "promptText": "Use both uploaded faces inside a grand South Indian temple festival scene at night, colorful lights, fireworks, traditional outfits, cinematic cultural atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1581888227599-779811939961?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 185,
+    "tags": [
+      "temple-festival",
+      "cultural",
+      "south-india",
+      "devotional"
+    ]
+  },
+  {
+    "id": "prompt-seed-277",
+    "title": "Anime Style Transformation",
+    "promptText": "Transform my image and the user image into anime-style futuristic characters with glowing eyes, dramatic action poses, cinematic fantasy background",
+    "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 167,
+    "tags": [
+      "anime-style",
+      "glowing-eyes",
+      "fantasy-action",
+      "artistic"
+    ]
+  },
+  {
+    "id": "prompt-seed-278",
+    "title": "Infinity Pool Luxury Scene",
+    "promptText": "Place my image and the user image inside luxury infinity pool villa overlooking ocean sunset, rich lifestyle aesthetic, cinematic warm lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 217,
+    "tags": [
+      "infinity-pool",
+      "ocean-sunset",
+      "villa",
+      "premium"
+    ]
+  },
+  {
+    "id": "prompt-seed-279",
+    "title": "Streetwear Fashion Cover",
+    "promptText": "Create trendy Instagram fashion cover using my image and the user image wearing oversized hoodies and sneakers in neon urban alley, cinematic editorial photography",
+    "imageUrl": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 243,
+    "tags": [
+      "streetwear",
+      "oversized-hoodies",
+      "magazine-cover",
+      "urban"
+    ]
+  },
+  {
+    "id": "prompt-seed-280",
+    "title": "Space Explorer Scene",
+    "promptText": "Transform both images into astronauts standing on alien planet with glowing galaxy sky, cinematic science fiction atmosphere, ultra realistic details",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 151,
+    "tags": [
+      "astronaut-duo",
+      "galaxy-sky",
+      "alien-planet",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": "prompt-seed-281",
+    "title": "Vintage Tamil Movie Poster",
+    "promptText": "Use my image and user image in retro 90s Tamil movie poster style, dramatic action pose, cinematic grain texture, mass hero vibe",
+    "imageUrl": "https://images.unsplash.com/photo-1515621061946-eff1c2a352bd?w=800&auto=format&fit=crop&q=60",
+    "category": "Viral Poster Designs",
+    "likes": 160,
+    "tags": [
+      "tamil-90s",
+      "retro-poster",
+      "mass-hero",
+      "vintage"
+    ]
+  },
+  {
+    "id": "prompt-seed-282",
+    "title": "Cozy Cafe Couple Scene",
+    "promptText": "Create aesthetic cozy cafe scene using both uploaded images sitting near rainy window with warm coffee shop lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 125,
+    "tags": [
+      "cozy-cafe",
+      "rainy-window",
+      "coffee",
+      "aesthetic"
+    ]
+  },
+  {
+    "id": "prompt-seed-283",
+    "title": "Fire & Ice Fantasy",
+    "promptText": "Transform my image into fire warrior and user image into ice warrior standing opposite each other, cinematic fantasy battle atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 169,
+    "tags": [
+      "fire-ice",
+      "battle",
+      "fantasy-warriors",
+      "elemental"
+    ]
+  },
+  {
+    "id": "prompt-seed-284",
+    "title": "Dreamy Moonlight Portrait",
+    "promptText": "Place both faces under giant glowing moon beside magical lake, dreamy fantasy atmosphere, cinematic blue-purple lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 268,
+    "tags": [
+      "moonlight",
+      "lake",
+      "dreamy-fantasy",
+      "romantic"
+    ]
+  },
+  {
+    "id": "prompt-seed-285",
+    "title": "Black & Gold Luxury Poster",
+    "promptText": "Create premium black and gold themed luxury portrait using my image and user image, dramatic studio lighting, magazine cover aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 292,
+    "tags": [
+      "black-gold",
+      "luxury-poster",
+      "studio-chic",
+      "premium"
+    ]
+  },
+  {
+    "id": "prompt-seed-286",
+    "title": "Samurai Warriors Scene",
+    "promptText": "Transform both uploaded images into powerful samurai warriors standing in rain with glowing katanas, cinematic Japanese atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1548102245-c7bf7c569ff4?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 196,
+    "tags": [
+      "samurai-duo",
+      "rain-battle",
+      "katana",
+      "thunderstorm"
+    ]
+  },
+  {
+    "id": "prompt-seed-287",
+    "title": "Traditional Wedding Portrait",
+    "promptText": "Create realistic South Indian wedding portrait using my image and the user image wearing bridal and groom outfits, temple jewelry, cinematic golden lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 137,
+    "tags": [
+      "traditional-marriage",
+      "bridal",
+      "temple-jewel",
+      "marriage"
+    ]
+  },
+  {
+    "id": "prompt-seed-288",
+    "title": "Hacker Duo Setup",
+    "promptText": "Place my image and user image inside futuristic hacker room with RGB lights, hologram screens, cyberpunk gaming atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1515621061946-eff1c2a352bd?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 281,
+    "tags": [
+      "hackers",
+      "rgb-room",
+      "holograms",
+      "cyberpunk"
+    ]
+  },
+  {
+    "id": "prompt-seed-289",
+    "title": "Fantasy Angel Wings",
+    "promptText": "Add giant glowing angel wings to both uploaded images standing above clouds during sunset, cinematic heavenly atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 212,
+    "tags": [
+      "angel-wings",
+      "heavenly",
+      "clouds-sunset",
+      "dreamlike"
+    ]
+  },
+  {
+    "id": "prompt-seed-290",
+    "title": "Rooftop Skyline Edit",
+    "promptText": "Create stylish rooftop portrait using my image and user image overlooking futuristic city skyline at night, neon reflections, luxury vibe",
+    "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 171,
+    "tags": [
+      "rooftop-skyline",
+      "city-night",
+      "neon-glow",
+      "chic"
+    ]
+  },
+  {
+    "id": "prompt-seed-291",
+    "title": "Hero Entry Action Scene",
+    "promptText": "Transform both faces into Tamil movie action heroes walking through smoke and fire sparks, cinematic mass intro shot",
+    "imageUrl": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800&auto=format&fit=crop&q=60",
+    "category": "Viral Poster Designs",
+    "likes": 200,
+    "tags": [
+      "mass-entry",
+      "smoke-fire",
+      "tamil-hero",
+      "action-pose"
+    ]
+  },
+  {
+    "id": "prompt-seed-292",
+    "title": "Luxury Private Jet Scene",
+    "promptText": "Place my image and user image beside luxury private jet during sunset, premium millionaire lifestyle aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1540962351504-03099e0a754b?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 273,
+    "tags": [
+      "private-jet",
+      "sunset",
+      "millionaire",
+      "aviation"
+    ]
+  },
+  {
+    "id": "prompt-seed-293",
+    "title": "Snow Mountain Adventure",
+    "promptText": "Use uploaded images in cinematic snowy mountain travel scene, winter outfits, golden sunrise lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 238,
+    "tags": [
+      "snow-mountain",
+      "winter-coats",
+      "sunrise",
+      "travel-couple"
+    ]
+  },
+  {
+    "id": "prompt-seed-294",
+    "title": "Futuristic Bike Riders",
+    "promptText": "Transform both uploaded images into cyberpunk superbike riders racing through neon city streets in rain",
+    "imageUrl": "https://images.unsplash.com/photo-1542282088-fe8426682b8f?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 228,
+    "tags": [
+      "futuristic-bikes",
+      "neon-chase",
+      "rainy-streets",
+      "cyberpunk"
+    ]
+  },
+  {
+    "id": "prompt-seed-295",
+    "title": "Jungle Adventure Poster",
+    "promptText": "Create cinematic jungle exploration scene using both images, hidden temple background, adventure movie vibe",
+    "imageUrl": "https://images.unsplash.com/photo-1545128485-c400e7702796?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 130,
+    "tags": [
+      "jungle-adventure",
+      "hidden-temple",
+      "explorer",
+      "mysterious"
+    ]
+  },
+  {
+    "id": "prompt-seed-296",
+    "title": "Red Neon Portrait",
+    "promptText": "Stylish red neon portrait using my image and user image with dramatic cinematic shadows and fashion atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 181,
+    "tags": [
+      "red-neon",
+      "studio-shadows",
+      "high-fashion",
+      "noir"
+    ]
+  },
+  {
+    "id": "prompt-seed-297",
+    "title": "Fantasy Royal Throne",
+    "promptText": "Place both uploaded faces sitting on giant royal throne inside ancient fantasy palace, cinematic lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1544735716-392bf2489ffa?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 197,
+    "tags": [
+      "royal-throne",
+      "fantasy-palace",
+      "majestic",
+      "epic"
+    ]
+  },
+  {
+    "id": "prompt-seed-298",
+    "title": "Beach Sunset Couple Edit",
+    "promptText": "Create dreamy beach sunset walking scene using my image and user image, romantic cinematic mood",
+    "imageUrl": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 208,
+    "tags": [
+      "beach-sunset",
+      "romantic-walk",
+      "ocean-waves",
+      "golden-hour"
+    ]
+  },
+  {
+    "id": "prompt-seed-299",
+    "title": "AI Robot Transformation",
+    "promptText": "Transform my image and user image into futuristic humanoid robots with glowing cybernetic details",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 210,
+    "tags": [
+      "cyborg-transformation",
+      "humanoid-robot",
+      "neon-circuits",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": "prompt-seed-300",
+    "title": "Black Horse Warrior Scene",
+    "promptText": "Use both uploaded images riding black horses through cinematic battlefield during storm",
+    "imageUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 122,
+    "tags": [
+      "horse-riders",
+      "battlefield-storm",
+      "historical",
+      "warrior"
+    ]
+  },
+  {
+    "id": "prompt-seed-301",
+    "title": "Futuristic Classroom Scene",
+    "promptText": "Place my image and user image inside futuristic AI classroom with hologram screens and neon technology",
+    "imageUrl": "https://images.unsplash.com/photo-1515621061946-eff1c2a352bd?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 149,
+    "tags": [
+      "future-classroom",
+      "holograms",
+      "ai-learning",
+      "smart"
+    ]
+  },
+  {
+    "id": "prompt-seed-302",
+    "title": "Mafia Boss Duo",
+    "promptText": "Transform both uploaded images into stylish mafia bosses standing beside luxury vintage car, cinematic gangster atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1611016186353-9af58c69a533?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 153,
+    "tags": [
+      "mafia-duo",
+      "vintage-car",
+      "gangster-chic",
+      "cigar"
+    ]
+  },
+  {
+    "id": "prompt-seed-303",
+    "title": "Rain Reflection Street",
+    "promptText": "Create cinematic rainy street portrait with colorful neon reflections using both uploaded images",
+    "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 222,
+    "tags": [
+      "rain-puddle",
+      "neon-reflections",
+      "street-portrait",
+      "reflections"
+    ]
+  },
+  {
+    "id": "prompt-seed-304",
+    "title": "Fantasy Dragon Riders",
+    "promptText": "Transform both uploaded faces into dragon riders flying above mountains during sunset",
+    "imageUrl": "https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 236,
+    "tags": [
+      "dragon-riders",
+      "sunset-flight",
+      "mountains",
+      "epic"
+    ]
+  },
+  {
+    "id": "prompt-seed-305",
+    "title": "Luxury Hotel Lobby Scene",
+    "promptText": "Place my image and user image inside grand luxury hotel lobby with cinematic warm lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 150,
+    "tags": [
+      "hotel-lobby",
+      "grandeur",
+      "chandelier",
+      "golden-lights"
+    ]
+  },
+  {
+    "id": "prompt-seed-306",
+    "title": "Fire Phoenix Scene",
+    "promptText": "Add giant glowing phoenix wings behind both uploaded images in cinematic fantasy atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 229,
+    "tags": [
+      "fire-phoenix",
+      "wings",
+      "lava-sparks",
+      "fantasy"
+    ]
+  },
+  {
+    "id": "prompt-seed-307",
+    "title": "Space Station Portrait",
+    "promptText": "Create futuristic space station portrait using both uploaded images in advanced sci-fi suits",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 130,
+    "tags": [
+      "space-station",
+      "astronaut-duo",
+      "galactic-view",
+      "spacesuit"
+    ]
+  },
+  {
+    "id": "prompt-seed-308",
+    "title": "Golden Temple Portrait",
+    "promptText": "Use my image and user image standing before glowing golden temple during sunrise, spiritual cinematic atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1545128485-c400e7702796?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 260,
+    "tags": [
+      "golden-temple",
+      "sunrise",
+      "peaceful",
+      "spirituality"
+    ]
+  },
+  {
+    "id": "prompt-seed-309",
+    "title": "Monochrome Fashion Portrait",
+    "promptText": "Create high contrast black-and-white fashion portrait using both uploaded images with dramatic studio lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 201,
+    "tags": [
+      "monochrome",
+      "studio-portraits",
+      "chic-apparel",
+      "black-white"
+    ]
+  },
+  {
+    "id": "prompt-seed-310",
+    "title": "Cyber Ninja Scene",
+    "promptText": "Transform both uploaded images into futuristic ninjas standing on rooftop during neon rainstorm",
+    "imageUrl": "https://images.unsplash.com/photo-1618336753974-aae8e04506aa?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 235,
+    "tags": [
+      "cyber-ninjas",
+      "rooftop-rain",
+      "futuristic-blades",
+      "cyberpunk"
+    ]
+  },
+  {
+    "id": "prompt-seed-311",
+    "title": "Royal Balcony Sunset",
+    "promptText": "Place my image and user image on palace balcony overlooking cinematic sunset kingdom",
+    "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 281,
+    "tags": [
+      "palace-balcony",
+      "sunset-palace",
+      "enchanted",
+      "regal"
+    ]
+  },
+  {
+    "id": "prompt-seed-312",
+    "title": "Ocean Cliff Adventure",
+    "promptText": "Create cinematic ocean cliff travel portrait using both uploaded images with dramatic clouds",
+    "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 216,
+    "tags": [
+      "ocean-cliffs",
+      "adventurers",
+      "dramatic-clouds",
+      "trekking"
+    ]
+  },
+  {
+    "id": "prompt-seed-313",
+    "title": "Luxury Rooftop Dinner",
+    "promptText": "Place uploaded faces inside elegant rooftop dinner setup with skyline night view",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 120,
+    "tags": [
+      "rooftop-dinner",
+      "couple-dinner",
+      "skyline-view",
+      "candlelight"
+    ]
+  },
+  {
+    "id": "prompt-seed-314",
+    "title": "Ice Castle Fantasy",
+    "promptText": "Transform both uploaded images into fantasy royalty inside glowing ice castle",
+    "imageUrl": "https://images.unsplash.com/photo-1544735716-392bf2489ffa?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 150,
+    "tags": [
+      "ice-castle",
+      "frozen-royals",
+      "glowing-room",
+      "glacier"
+    ]
+  },
+  {
+    "id": "prompt-seed-315",
+    "title": "Neon Gaming Duo",
+    "promptText": "Create RGB gaming room portrait using my image and user image wearing gamer headsets",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 180,
+    "tags": [
+      "gamer-duo",
+      "rgb-lights",
+      "headsets",
+      "gaming-desk"
+    ]
+  },
+  {
+    "id": "prompt-seed-316",
+    "title": "Temple Deepam Atmosphere",
+    "promptText": "Use uploaded images inside ancient temple corridor with glowing oil lamps and spiritual mood",
+    "imageUrl": "https://images.unsplash.com/photo-1609137144813-979929bc2531?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 200,
+    "tags": [
+      "temple-corridor",
+      "deepam-diyas",
+      "mystical",
+      "sacred-lamps"
+    ]
+  },
+  {
+    "id": "prompt-seed-317",
+    "title": "Futuristic Police Officers",
+    "promptText": "Transform both uploaded faces into cyberpunk police officers standing in neon city alley",
+    "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 123,
+    "tags": [
+      "cyber-cops",
+      "neon-alley",
+      "hologram-grid",
+      "officers"
+    ]
+  },
+  {
+    "id": "prompt-seed-318",
+    "title": "Floating Island Fantasy",
+    "promptText": "Place my image and user image standing on magical floating island above clouds",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 299,
+    "tags": [
+      "floating-island",
+      "above-clouds",
+      "heavenly",
+      "wonderland"
+    ]
+  },
+  {
+    "id": "prompt-seed-319",
+    "title": "Stylish Airport Fashion",
+    "promptText": "Create luxury airport fashion photoshoot using both uploaded images in designer outfits",
+    "imageUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 213,
+    "tags": [
+      "airport-fashion",
+      "travel-chic",
+      "vip-lounge",
+      "terminal"
+    ]
+  },
+  {
+    "id": "prompt-seed-320",
+    "title": "Galaxy Meditation Scene",
+    "promptText": "Transform both uploaded images into spiritual cosmic meditation scene with galaxy background",
+    "imageUrl": "https://images.unsplash.com/photo-1561361513-2d000a50f0db?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 147,
+    "tags": [
+      "galaxy-meditation",
+      "spiritual",
+      "cosmic-energy",
+      "zen"
+    ]
+  },
+  {
+    "id": "prompt-seed-321",
+    "title": "Futuristic Wedding Poster",
+    "promptText": "Use my uploaded image and the user image to create a futuristic Indian wedding poster inside neon-lit palace hall, glowing hologram decorations, cinematic romantic atmosphere, luxury sci-fi wedding aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1621317911081-01f11400e9de?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 269,
+    "tags": [
+      "future-wedding",
+      "india-sci-fi",
+      "hologram-flowers",
+      "neon-hall"
+    ]
+  },
+  {
+    "id": "prompt-seed-322",
+    "title": "Desert King & Queen Scene",
+    "promptText": "Transform my image and the user image into royal desert rulers standing in golden sandstorm with majestic outfits, cinematic sunset lighting, fantasy movie poster vibe",
+    "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 239,
+    "tags": [
+      "desert-rulers",
+      "sandstorm-gold",
+      "king-queen",
+      "magical-dust"
+    ]
+  },
+  {
+    "id": "prompt-seed-323",
+    "title": "Rainy Railway Platform",
+    "promptText": "Create emotional cinematic train station scene using my image and user image waiting together under rain, warm yellow platform lights, realistic reflections, storytelling atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1515621061946-eff1c2a352bd?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 194,
+    "tags": [
+      "railway-rain",
+      "steamy-platform",
+      "neon-yellow",
+      "monsoon-walk"
+    ]
+  },
+  {
+    "id": "prompt-seed-324",
+    "title": "Luxury Mansion Entrance",
+    "promptText": "Place my image and user image in front of giant luxury black mansion at night with expensive cars, cinematic millionaire lifestyle aesthetic",
+    "imageUrl": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf0a3?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 230,
+    "tags": [
+      "black-mansion",
+      "mega-garage",
+      "premium-lights",
+      "millionaires"
+    ]
+  },
+  {
+    "id": "prompt-seed-325",
+    "title": "Cyberpunk Tamil Duo",
+    "promptText": "Transform both uploaded images into cyberpunk Tamil action heroes standing in futuristic Chennai market filled with hologram Tamil signboards and neon rain",
+    "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 278,
+    "tags": [
+      "chennai-future",
+      "tamil-holograms",
+      "mass-entry",
+      "rainy-streets"
+    ]
+  },
+  {
+    "id": "prompt-seed-326",
+    "title": "Moonlight Beach Portrait",
+    "promptText": "Create dreamy cinematic beach portrait under giant glowing moon using my image and user image, soft blue reflections, romantic atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 268,
+    "tags": [
+      "lunar-waves",
+      "beach-romance",
+      "giant-moon",
+      "blue-energy"
+    ]
+  },
+  {
+    "id": "prompt-seed-327",
+    "title": "Ancient Warrior Couple",
+    "promptText": "Use uploaded images as ancient Indian warriors standing in battlefield with swords and fire sparks, cinematic historical fantasy atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 125,
+    "tags": [
+      "epic-warriors",
+      "battlefield",
+      "fire-sparks",
+      "medieval-blade"
+    ]
+  },
+  {
+    "id": "prompt-seed-328",
+    "title": "Futuristic Gamer Setup",
+    "promptText": "Place my image and the user image inside advanced gaming room with hologram screens, RGB lights, neon reflections, esports atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 290,
+    "tags": [
+      "esports-hubs",
+      "holographic-hud",
+      "gamer-crews",
+      "rgb-setup"
+    ]
+  },
+  {
+    "id": "prompt-seed-329",
+    "title": "Royal Temple Wedding",
+    "promptText": "Transform both uploaded images into South Indian bride and groom standing inside ancient temple with deepam lights and jasmine decorations",
+    "imageUrl": "https://images.unsplash.com/photo-1609137144813-979929bc2531?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 184,
+    "tags": [
+      "temple-wedding",
+      "south-marriage",
+      "jasmine-glow",
+      "diyas"
+    ]
+  },
+  {
+    "id": "prompt-seed-330",
+    "title": "Luxury Yacht Party",
+    "promptText": "Create cinematic luxury yacht party scene using both uploaded images during sunset, ocean reflections, premium rich lifestyle vibe",
+    "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 273,
+    "tags": [
+      "superyacht",
+      "deck-sunset",
+      "vip-cocktails",
+      "sea-breeze"
+    ]
+  },
+  {
+    "id": "prompt-seed-331",
+    "title": "Anime Action Duo",
+    "promptText": "Transform my image and the user image into anime-inspired action heroes with glowing powers, dramatic cinematic background, fantasy energy aura",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 283,
+    "tags": [
+      "shonen-power",
+      "energy-auras",
+      "anime-glow",
+      "epic-battle"
+    ]
+  },
+  {
+    "id": "prompt-seed-332",
+    "title": "Fire Dragon Battle",
+    "promptText": "Use both uploaded images standing before giant fire dragon in fantasy battlefield, cinematic smoke atmosphere, glowing lava effects",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 296,
+    "tags": [
+      "dragon-skirmish",
+      "molten-floor",
+      "wings",
+      "smoldering"
+    ]
+  },
+  {
+    "id": "prompt-seed-333",
+    "title": "Stylish Rooftop Portrait",
+    "promptText": "Create trendy rooftop fashion photoshoot using my image and user image with futuristic skyline background and cinematic sunset lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 192,
+    "tags": [
+      "chic-rooftops",
+      "sunset-skytop",
+      "posing-high",
+      "magazine"
+    ]
+  },
+  {
+    "id": "prompt-seed-334",
+    "title": "Snowfall Love Scene",
+    "promptText": "Place my image and the user image inside snowy mountain town during snowfall, cozy winter outfits, emotional cinematic atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1491555103944-7c647fd857e6?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 139,
+    "tags": [
+      "glacier-town",
+      "winter-snuggles",
+      "glowing-cabins",
+      "snowfall-love"
+    ]
+  },
+  {
+    "id": "prompt-seed-335",
+    "title": "Mafia Family Poster",
+    "promptText": "Transform both uploaded images into stylish mafia characters standing in dark luxury office with cigar smoke and dramatic lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 238,
+    "tags": [
+      "godfather-suits",
+      "smoky-room",
+      "luxury-leather",
+      "gangsters"
+    ]
+  },
+  {
+    "id": "prompt-seed-336",
+    "title": "Futuristic Superbike Scene",
+    "promptText": "Use uploaded images riding futuristic glowing superbikes through rainy cyberpunk city streets at night",
+    "imageUrl": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 257,
+    "tags": [
+      "neon-racer",
+      "cybernetic-bike",
+      "holographic-hud",
+      "race-chase"
+    ]
+  },
+  {
+    "id": "prompt-seed-337",
+    "title": "Temple Festival Couple",
+    "promptText": "Create colorful South Indian temple festival portrait using both uploaded images wearing traditional outfits and cinematic lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1545128485-c400e7702796?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 280,
+    "tags": [
+      "mela-bazar",
+      "tradition-lights",
+      "temple-ground",
+      "south-india"
+    ]
+  },
+  {
+    "id": "prompt-seed-338",
+    "title": "Fantasy Angel Couple",
+    "promptText": "Add giant glowing angel wings behind both uploaded images standing above clouds during golden sunset",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 193,
+    "tags": [
+      "celestial-angel",
+      "sunset-skies",
+      "epic-view",
+      "feather-glow"
+    ]
+  },
+  {
+    "id": "prompt-seed-339",
+    "title": "Neon Red Fashion Shoot",
+    "promptText": "Create dramatic red neon portrait using my image and user image in luxury fashion magazine style",
+    "imageUrl": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 122,
+    "tags": [
+      "scarlet-neon",
+      "chiaroscuro",
+      "glamour-glow",
+      "studio-chic"
+    ]
+  },
+  {
+    "id": "prompt-seed-340",
+    "title": "Space Explorer Duo",
+    "promptText": "Transform both uploaded images into astronauts exploring alien planet with galaxy sky and futuristic spaceship",
+    "imageUrl": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 279,
+    "tags": [
+      "astronaut-outpost",
+      "nebula-view",
+      "spaceships",
+      "orion"
+    ]
+  },
+  {
+    "id": "prompt-seed-341",
+    "title": "Golden Throne Portrait",
+    "promptText": "Place my image and user image sitting together on giant golden throne inside fantasy palace with royal cinematic atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 221,
+    "tags": [
+      "throne-coronation",
+      "golden-pillars",
+      "monarchs-fantasy",
+      "regal"
+    ]
+  },
+  {
+    "id": "prompt-seed-342",
+    "title": "Jungle Adventure Scene",
+    "promptText": "Use both uploaded images inside cinematic jungle adventure with waterfalls, hidden temple, and explorer outfits",
+    "imageUrl": "https://images.unsplash.com/photo-1581888227599-779811939961?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 139,
+    "tags": [
+      "jungle-adventure",
+      "epic-waterfalls",
+      "hiking-knapsack",
+      "mysterious"
+    ]
+  },
+  {
+    "id": "prompt-seed-343",
+    "title": "Black & White Cinematic Edit",
+    "promptText": "Create emotional monochrome portrait using my image and user image with dramatic shadows and luxury photography style",
+    "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 178,
+    "tags": [
+      "noire-shadows",
+      "monochrome-glitz",
+      "intense-look",
+      "studio-black"
+    ]
+  },
+  {
+    "id": "prompt-seed-344",
+    "title": "Luxury Sports Car Duo",
+    "promptText": "Place uploaded faces beside glowing luxury sports cars under neon city lights with cinematic reflections",
+    "imageUrl": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 275,
+    "tags": [
+      "hypercar-glow",
+      "neon-underglow",
+      "night-racers",
+      "millionaire"
+    ]
+  },
+  {
+    "id": "prompt-seed-345",
+    "title": "Dreamy Lavender Field",
+    "promptText": "Create romantic lavender flower field portrait during sunset using both uploaded images, soft cinematic atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 261,
+    "tags": [
+      "blooms-glow",
+      "fields-purple",
+      "golden-hour",
+      "dreamy-landscape"
+    ]
+  },
+  {
+    "id": "prompt-seed-346",
+    "title": "Cyber Ninja Warriors",
+    "promptText": "Transform both uploaded images into futuristic cyber ninjas standing on rooftop during rainstorm with glowing weapons",
+    "imageUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 238,
+    "tags": [
+      "katana-lightning",
+      "cyber-ninja",
+      "holographic-mask",
+      "action"
+    ]
+  },
+  {
+    "id": "prompt-seed-347",
+    "title": "Cozy Rain Cafe Scene",
+    "promptText": "Place my image and user image inside aesthetic rainy cafe beside glowing window lights and coffee mugs",
+    "imageUrl": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 286,
+    "tags": [
+      "rainy-caffeine",
+      "cozy-seats",
+      "warm-mug",
+      "aesthetic"
+    ]
+  },
+  {
+    "id": "prompt-seed-348",
+    "title": "Fantasy Ice Kingdom",
+    "promptText": "Transform uploaded images into king and queen inside magical frozen kingdom with glowing blue cinematic lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 122,
+    "tags": [
+      "ice-crown",
+      "glacier-palace",
+      "winter-royalty",
+      "mystic-glow"
+    ]
+  },
+  {
+    "id": "prompt-seed-349",
+    "title": "Hero Mass Entry Poster",
+    "promptText": "Create powerful Tamil mass hero entry poster using my image and user image walking through smoke and fire sparks",
+    "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=60",
+    "category": "Viral Poster Designs",
+    "likes": 223,
+    "tags": [
+      "tamil-mass-entry",
+      "kollywood",
+      "smoke-intro",
+      "action-poster"
+    ]
+  },
+  {
+    "id": "prompt-seed-350",
+    "title": "Ocean Sunset Boat Ride",
+    "promptText": "Place both uploaded images on wooden boat during orange ocean sunset, cinematic reflections and romantic atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 246,
+    "tags": [
+      "wooden-skiff",
+      "ocean-sunset",
+      "rippling-gold",
+      "adventure"
+    ]
+  },
+  {
+    "id": "prompt-seed-351",
+    "title": "AI Robot Duo",
+    "promptText": "Transform both uploaded faces into advanced humanoid robots with glowing cybernetic eyes and futuristic armor",
+    "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 123,
+    "tags": [
+      "robot-guardians",
+      "cyber-grid",
+      "cyborg-eyes",
+      "glowing-circuits"
+    ]
+  },
+  {
+    "id": "prompt-seed-352",
+    "title": "Luxury Fashion Runway",
+    "promptText": "Create cinematic runway photoshoot using my image and user image in designer outfits under dramatic stage lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 255,
+    "tags": [
+      "high-runway",
+      "model-duo",
+      "studio-flashes",
+      "gorgeous-look"
+    ]
+  },
+  {
+    "id": "prompt-seed-353",
+    "title": "Village Rain Scene",
+    "promptText": "Use uploaded images standing near traditional tea shop during monsoon rain with cinematic Indian storytelling atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 234,
+    "tags": [
+      "cutting-chai",
+      "traditional-shop",
+      "monsoon-rain",
+      "village-life"
+    ]
+  },
+  {
+    "id": "prompt-seed-354",
+    "title": "Fire & Ice Couple",
+    "promptText": "Transform my image into fire-themed warrior and user image into ice-themed warrior standing dramatically together",
+    "imageUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 235,
+    "tags": [
+      "fire-ice-epic",
+      "clash-glow",
+      "elements-love",
+      "elemental"
+    ]
+  },
+  {
+    "id": "prompt-seed-355",
+    "title": "Neon Basketball Court",
+    "promptText": "Create cinematic sports portrait using both uploaded images on glowing neon basketball court at night",
+    "imageUrl": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 201,
+    "tags": [
+      "cyber-hoops",
+      "neon-sparks",
+      "court-dribble",
+      "urban-sports"
+    ]
+  },
+  {
+    "id": "prompt-seed-356",
+    "title": "Temple Deepam Corridor",
+    "promptText": "Place my image and user image inside ancient temple corridor filled with glowing oil lamps and spiritual cinematic atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1609137144813-979929bc2531?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 258,
+    "tags": [
+      "diyas-corridor",
+      "sanctuary-haze",
+      "peaceful",
+      "ancient-scrawls"
+    ]
+  },
+  {
+    "id": "prompt-seed-357",
+    "title": "Futuristic Space City",
+    "promptText": "Transform both uploaded images into futuristic citizens standing before giant sci-fi skyline with flying vehicles",
+    "imageUrl": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 264,
+    "tags": [
+      "orbital-hubs",
+      "flying-transit",
+      "futuristic-skyline",
+      "tech-deck"
+    ]
+  },
+  {
+    "id": "prompt-seed-358",
+    "title": "Royal Elephant Ride",
+    "promptText": "Use uploaded images riding decorated royal elephant during grand Indian festival, cinematic luxury atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 139,
+    "tags": [
+      "festival-elephant",
+      "gold-ornaments",
+      "cultural-joy",
+      "ceremony"
+    ]
+  },
+  {
+    "id": "prompt-seed-359",
+    "title": "Stylish Streetwear Duo",
+    "promptText": "Create trendy Instagram streetwear portrait using both uploaded images wearing oversized hoodies and sneakers",
+    "imageUrl": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 258,
+    "tags": [
+      "oversized-fit",
+      "cool-backpacks",
+      "street-style",
+      "urban-chic"
+    ]
+  },
+  {
+    "id": "prompt-seed-360",
+    "title": "Fantasy Phoenix Wings",
+    "promptText": "Add giant glowing phoenix wings behind uploaded images with cinematic fire particles and fantasy atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 234,
+    "tags": [
+      "phoenix-armor",
+      "blazing-energy",
+      "epic-gold",
+      "avatar-wings"
+    ]
+  },
+  {
+    "id": "prompt-seed-361",
+    "title": "Luxury Rooftop Pool Scene",
+    "promptText": "Place my image and user image beside infinity rooftop pool overlooking futuristic skyline at night",
+    "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 236,
+    "tags": [
+      "skypool-glow",
+      "infinity-night",
+      "millionaire-life",
+      "luxury-vessel"
+    ]
+  },
+  {
+    "id": "prompt-seed-362",
+    "title": "Samurai Rain Battle",
+    "promptText": "Transform both uploaded images into samurai warriors fighting under heavy rain with glowing swords",
+    "imageUrl": "https://images.unsplash.com/photo-1548102245-c7bf7c569ff4?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 175,
+    "tags": [
+      "samurai-storm",
+      "lightning-blade",
+      "rainy-clash",
+      "armor-textures"
+    ]
+  },
+  {
+    "id": "prompt-seed-363",
+    "title": "Galaxy Love Portrait",
+    "promptText": "Create dreamy galaxy background portrait using both uploaded images with floating stars and cosmic atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 295,
+    "tags": [
+      "nebula-cuddle",
+      "stellar-sparkles",
+      "milky-way",
+      "dreamy-portrait"
+    ]
+  },
+  {
+    "id": "prompt-seed-364",
+    "title": "Futuristic Classroom Duo",
+    "promptText": "Place uploaded images inside advanced hologram classroom with glowing technology and sci-fi environment",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 151,
+    "tags": [
+      "interactive-study",
+      "smart-desks",
+      "hologram-grid",
+      "robotics"
+    ]
+  },
+  {
+    "id": "prompt-seed-365",
+    "title": "Romantic Candle Dinner",
+    "promptText": "Use my image and user image inside elegant candlelight rooftop dinner setup with cinematic city lights",
+    "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 137,
+    "tags": [
+      "candle-glares",
+      "cozy-dine",
+      "city-lights-backdrop",
+      "celebrations"
+    ]
+  },
+  {
+    "id": "prompt-seed-366",
+    "title": "Underwater Fantasy Scene",
+    "promptText": "Transform both uploaded images into underwater fantasy characters surrounded by glowing sea creatures",
+    "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 271,
+    "tags": [
+      "mermaid-pose",
+      "sea-floor",
+      "subaquatic-glow",
+      "reef-sparks"
+    ]
+  },
+  {
+    "id": "prompt-seed-367",
+    "title": "Luxury Helicopter Arrival",
+    "promptText": "Create cinematic millionaire lifestyle scene using both uploaded images stepping out of luxury helicopter",
+    "imageUrl": "https://images.unsplash.com/photo-1540962351504-03099e0a754b?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 187,
+    "tags": [
+      "private-flight",
+      "helicopter- arrival",
+      "helipad-rooftop",
+      "vip-travel"
+    ]
+  },
+  {
+    "id": "prompt-seed-368",
+    "title": "Black Panther Companions",
+    "promptText": "Place uploaded images beside giant black panther in dark jungle with cinematic lighting and fantasy mood",
+    "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 222,
+    "tags": [
+      "wildlife-companion",
+      "panther-glow",
+      "rainforest-mist",
+      "feline-alpha"
+    ]
+  },
+  {
+    "id": "prompt-seed-369",
+    "title": "Dreamy Moon Lake Scene",
+    "promptText": "Create magical moonlit lake portrait using both uploaded images surrounded by glowing fireflies",
+    "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 292,
+    "tags": [
+      "fireflies-sparkle",
+      "moonlight-lake",
+      "lunar-gold",
+      "mellow-reflection"
+    ]
+  },
+  {
+    "id": "prompt-seed-370",
+    "title": "Futuristic VR Gamers",
+    "promptText": "Transform uploaded images into VR gamers inside neon cyberpunk gaming arena with hologram effects",
+    "imageUrl": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 281,
+    "tags": [
+      "vr-goggles",
+      "interactive-esports",
+      "cyberpunk-play",
+      "holographic"
+    ]
+  },
+  {
+    "id": "prompt-seed-371",
+    "title": "Royal Sword Ceremony",
+    "promptText": "Use both uploaded images in ancient royal sword ceremony inside cinematic palace hall with glowing torches",
+    "imageUrl": "https://images.unsplash.com/photo-1618336753974-aae8e04506aa?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 175,
+    "tags": [
+      "magical-sword",
+      "coronation-glow",
+      "royal-ceremony",
+      "ancient-throne"
+    ]
+  },
+  {
+    "id": "prompt-seed-372",
+    "title": "Rainy City Couple Walk",
+    "promptText": "Create cinematic rainy city street walk using my image and user image under glowing neon umbrellas",
+    "imageUrl": "https://images.unsplash.com/photo-1515621061946-eff1c2a352bd?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 180,
+    "tags": [
+      "rainy-city-night",
+      "puddle-mirror",
+      "neon-umbrellas",
+      "cozy-walk"
+    ]
+  },
+  {
+    "id": "prompt-seed-373",
+    "title": "Fire Mage Fantasy",
+    "promptText": "Transform uploaded images into powerful fantasy fire mages surrounded by floating flames and magical symbols",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 255,
+    "tags": [
+      "blaze-wizard",
+      "glowing-sigils",
+      "floating-sparks",
+      "fire-mage"
+    ]
+  },
+  {
+    "id": "prompt-seed-374",
+    "title": "Luxury Airport Scene",
+    "promptText": "Place my image and user image inside ultra modern airport lounge with cinematic business-class atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 206,
+    "tags": [
+      "business-class",
+      "exclusive-lounge",
+      "terminal-chic",
+      "vip-jetset"
+    ]
+  },
+  {
+    "id": "prompt-seed-375",
+    "title": "Jungle Waterfall Portrait",
+    "promptText": "Use both uploaded images near giant rainforest waterfall with cinematic mist atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 196,
+    "tags": [
+      "mighty-waterfall",
+      "backpackers",
+      "foggy-valley",
+      "jungle-trail"
+    ]
+  },
+  {
+    "id": "prompt-seed-376",
+    "title": "Cyberpunk Hacker Duo",
+    "promptText": "Transform both uploaded images into elite hackers inside futuristic neon-lit hacker room",
+    "imageUrl": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 276,
+    "tags": [
+      "cyber-deck",
+      "matrix-terminal",
+      "rgb-hackers",
+      "cyberpunk"
+    ]
+  },
+  {
+    "id": "prompt-seed-377",
+    "title": "Snow Mountain Travelers",
+    "promptText": "Create cinematic snowy travel portrait using both uploaded images with dramatic sunrise over mountains",
+    "imageUrl": "https://images.unsplash.com/photo-1491555103944-7c647fd857e6?w=800&auto=format&fit=crop&q=60",
+    "category": "Travel & Nature",
+    "likes": 155,
+    "tags": [
+      "winter-backpack",
+      "snowy-cliffs",
+      "mountain-sunrise",
+      "alp-travel"
+    ]
+  },
+  {
+    "id": "prompt-seed-378",
+    "title": "Temple Golden Sunrise",
+    "promptText": "Place my image and user image in front of glowing South Indian temple during sunrise with cinematic spiritual atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1519074069444-1ba12565b172?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 133,
+    "tags": [
+      "tamil-temple",
+      "golden-glares",
+      "spiritual-sunrise",
+      "peaceful-grotto"
+    ]
+  },
+  {
+    "id": "prompt-seed-379",
+    "title": "Stylish Leather Jacket Edit",
+    "promptText": "Create trendy leather jacket portrait using both uploaded images under dramatic red and blue lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 244,
+    "tags": [
+      "leather-jacket",
+      "retro-chic",
+      "red-blue-split",
+      "studio-chic"
+    ]
+  },
+  {
+    "id": "prompt-seed-380",
+    "title": "Dragon Riders Fantasy",
+    "promptText": "Transform both uploaded images into dragon riders flying above mountains during stormy sunset",
+    "imageUrl": "https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 295,
+    "tags": [
+      "dragon-sentinel",
+      "stormy-sky",
+      "flight-legends",
+      "fantasy-beast"
+    ]
+  },
+  {
+    "id": "prompt-seed-381",
+    "title": "Luxury Black Gold Poster",
+    "promptText": "Create premium black-and-gold cinematic poster using my image and user image with luxury magazine vibe",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=60",
+    "category": "Luxury Lifestyle",
+    "likes": 165,
+    "tags": [
+      "black-gold-look",
+      "lux-mag",
+      "chiaroscuro",
+      "glamour-editorial"
+    ]
+  },
+  {
+    "id": "prompt-seed-382",
+    "title": "Neon Tunnel Scene",
+    "promptText": "Place uploaded images inside glowing neon tunnel with cyberpunk reflections and futuristic atmosphere",
+    "imageUrl": "https://images.unsplash.com/photo-1515621061946-eff1c2a352bd?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 299,
+    "tags": [
+      "neon-grates",
+      "cyberpunk-tunnel",
+      "rainbow-beams",
+      "reflections"
+    ]
+  },
+  {
+    "id": "prompt-seed-383",
+    "title": "Royal Peacock Garden",
+    "promptText": "Use both uploaded images standing in royal palace garden filled with peacocks and cinematic sunset lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 264,
+    "tags": [
+      "palace-lawn",
+      "peacocks-dance",
+      "sunset-gold",
+      "regal-traditions"
+    ]
+  },
+  {
+    "id": "prompt-seed-384",
+    "title": "Futuristic Police Duo",
+    "promptText": "Transform uploaded images into cyberpunk police officers standing in neon-lit futuristic alley",
+    "imageUrl": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=60",
+    "category": "Future & Sci-Fi",
+    "likes": 127,
+    "tags": [
+      "cyber-patrol",
+      "glowing-armor",
+      "officers",
+      "neon-alley"
+    ]
+  },
+  {
+    "id": "prompt-seed-385",
+    "title": "Cozy Bedroom Mood",
+    "promptText": "Create aesthetic bedroom portrait using my image and user image during rainy night with fairy lights",
+    "imageUrl": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 165,
+    "tags": [
+      "night-bedroom",
+      "dreamy-lights",
+      "nesting-cozy",
+      "blankets"
+    ]
+  },
+  {
+    "id": "prompt-seed-386",
+    "title": "Fantasy Crystal Cave",
+    "promptText": "Place both uploaded images inside glowing magical crystal cave with fantasy cinematic lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60",
+    "category": "AI Fantasy Art",
+    "likes": 201,
+    "tags": [
+      "crystal-cliffs",
+      "sapphire-sparks",
+      "fantasy-grotto",
+      "glowing-geode"
+    ]
+  },
+  {
+    "id": "prompt-seed-387",
+    "title": "Hero Bike Entry Scene",
+    "promptText": "Transform uploaded images into Tamil movie action heroes riding superbikes through smoke-filled roads",
+    "imageUrl": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop&q=60",
+    "category": "Viral Poster Designs",
+    "likes": 160,
+    "tags": [
+      "tamil-biker",
+      "kollywood-mass",
+      "exhaust-smoke",
+      "highway-intro"
+    ]
+  },
+  {
+    "id": "prompt-seed-388",
+    "title": "Golden Desert Love Scene",
+    "promptText": "Create romantic desert portrait during orange sunset using both uploaded images in royal outfits",
+    "imageUrl": "https://images.unsplash.com/photo-1544735716-392bf2489ffa?w=800&auto=format&fit=crop&q=60",
+    "category": "Couple & Love Aesthetic",
+    "likes": 186,
+    "tags": [
+      "desert-couple",
+      "royal-gowns",
+      "golden-sand dunes",
+      "sunset-passion"
+    ]
+  },
+  {
+    "id": "prompt-seed-389",
+    "title": "AI Fashion Magazine Cover",
+    "promptText": "Use my image and user image as futuristic fashion models on cyberpunk magazine cover",
+    "imageUrl": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?w=800&auto=format&fit=crop&q=60",
+    "category": "Cinematic Portraits",
+    "likes": 120,
+    "tags": [
+      "magazine-cover",
+      "future-model",
+      "editorial-art",
+      "studio-glaze"
+    ]
+  },
+  {
+    "id": "prompt-seed-390",
+    "title": "Temple Chariot Festival",
+    "promptText": "Place uploaded images beside decorated temple chariot during grand Indian festival night",
+    "imageUrl": "https://images.unsplash.com/photo-1561361513-2d000a50f0db?w=800&auto=format&fit=crop&q=60",
+    "category": "Devotional & Spiritual",
+    "likes": 236,
+    "tags": [
+      "temple- chariot",
+      "cultural-india",
+      "festival-fireworks",
+      "tamil-bazar"
+    ]
+  }
+]
