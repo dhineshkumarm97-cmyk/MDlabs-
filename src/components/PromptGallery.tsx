@@ -58,6 +58,178 @@ const cardVariants = {
   }
 };
 
+const WALLPAPER_THEMES = [
+  {
+    name: "Cosmic Neon Horizon",
+    tags: ["cosmic", "neon", "galaxy", "stellar", "space"],
+    prompt: "A beautiful high-definition mobile wallpaper of a cosmic neon horizon, glowing celestial galaxies merging with futuristic glass spires, high contrast purple and electric teal, vapor aesthetic, cinematic lighting, 8k resolution, ultra-detailed --ar 9:16",
+    ids: [
+      "photo-1419242902214-272b3f66ee7a", "photo-1518531933037-91b2f5f229cc", "photo-1519681393784-d120267933ba",
+      "photo-1446776811953-b23d57bd21aa", "photo-1506318137071-a8e063b4bec0", "photo-1541701494587-cb58502866ab",
+      "photo-1451187580459-43490279c0fa", "photo-1502134249126-9f3755a50d78", "photo-1538370965046-79c0d6907d47"
+    ]
+  },
+  {
+    name: "Cyberpunk Terminal Rain",
+    tags: ["cyberpunk", "neon", "rain", "street", "city"],
+    prompt: "Intricate command-line terminal on a futuristic cyber visor, heavy midnight rain on glowing glass street signs, reflections, atmospheric cyberpunk neon glow, retrofuturistic, unreal engine render, hyper-detailed --ar 9:16",
+    ids: [
+      "photo-1525547719571-a2d4ac8945e2", "photo-1504384308090-c894fdcc538d", "photo-1542831371-29b0f74f9713",
+      "photo-1515621061946-eff1c2a352bd", "photo-1618843479313-40f8afb4b4d8", "photo-1617531653332-bd46c24f2068",
+      "photo-1509198397868-475647b2a1e5", "photo-1511512578047-dfb367046420", "photo-1511512578047-dfb367332145"
+    ]
+  },
+  {
+    name: "Zen Minimalist Dunes",
+    tags: ["zen", "minimal", "peace", "abstract", "pastel"],
+    prompt: "Stunning minimalist sand dunes stretching under a peaceful pastel sunset sky, clean elegant organic lines, abstract tranquil atmosphere, high end soft focus nature photography, award-winning composition --ar 9:16",
+    ids: [
+      "photo-1507525428034-b723cf961d3e", "photo-1533090161767-e6ffed986c88", "photo-1528459801416-a9e53bbf4e17",
+      "photo-1501854140801-50d01698950b", "photo-1540206351-d6465b3ac5c1", "photo-1509316975850-ff9c5edd0cd9",
+      "photo-1504851149312-7a075b496cc7", "photo-1518156677180-95a2893f3e9f", "photo-1500485035595-cbeaf2741630"
+    ]
+  },
+  {
+    name: "Mystical Emerald Forest",
+    tags: ["forest", "nature", "myth", "foliage", "trees"],
+    prompt: "Dreamy dense emerald forest path, ancient gnarled oak trees glowing with tiny magical spores, soft warm sun rays breaking through foliage, fantasy landscape illustration, cozy ambient mood --ar 9:16",
+    ids: [
+      "photo-1447752875215-b2761acb3c5d", "photo-1441974231531-c6227db76b6e", "photo-1469474968028-56623f02e42e",
+      "photo-1513836279014-a89f7a76ae86", "photo-1473448912268-2022ce9509d8", "photo-1502082553048-f009c37129b9",
+      "photo-1518531933555-d3d5fdcc558d", "photo-1511497584788-876760111969", "photo-1511497584788-876760111970"
+    ]
+  },
+  {
+    name: "Retro Synthwave Grid",
+    tags: ["retro", "synthwave", "vaporwave", "sunset", "90s"],
+    prompt: "Classic 1980s synthwave grid road rising toward a glowing neon wireframe horizon, wireframe sunrise, vibrant cyberpunk sunset, retro outrun aesthetic background, 3d retrowave vector render --ar 9:16",
+    ids: [
+      "photo-1557683316-973673baf926", "photo-1563089145-599997674d42", "photo-1579546929518-9e396f3cc809",
+      "photo-1618005182384-a83a8bd57fbe", "photo-1550684848-fac1c5b4e853", "photo-1554080353-a576cf803bda",
+      "photo-1601042879364-f3947d3f9c16", "photo-1561070791-2526d30994b5", "photo-1561070791-2526d30994b6"
+    ]
+  },
+  {
+    name: "Ethereal Magical Sky",
+    tags: ["dreamy", "magic", "pastel", "clouds", "airway"],
+    prompt: "Ethereal magical sky bathed in dreamy pink and golden sunset rays, majestic fluffy cumulus clouds parting, warm volumetric lighting, angelic peaceful heaven background, majestic landscape, 4k --ar 9:16",
+    ids: [
+      "photo-1483728642387-6c3bdd6c93e5", "photo-1518709268805-4e9042af9f23", "photo-1494790108377-be9c29b29330",
+      "photo-1517582080012-f24e2ec5ad92", "photo-1532980400857-e8d9d2757f58", "photo-1516339901601-2e1d62dc0c45",
+      "photo-1520690214124-2405c5217036", "photo-1502790371629-27b4b3aa3453", "photo-1502790371629-27b4b3aa3454"
+    ]
+  },
+  {
+    name: "Abstract Fluid Aura",
+    tags: ["ink", "fluid", "abstract", "art", "psych"],
+    prompt: "Beautiful premium fluid acrylic pour art showcasing a swirling aura of liquid metallic gold, emerald green, and rich navy blue, marble fluid dynamics, abstract modern art wallpaper --ar 9:16",
+    ids: [
+      "photo-1541701494587-cb58502866ab", "photo-1618005182384-a83a8bd57fbe", "photo-1528459801416-a9e53bbf4e17",
+      "photo-1554080353-a576cf803bda", "photo-1579783900882-c0d3dad7b119", "photo-1550684848-fac1c5b4e853",
+      "photo-1541625602330-2277a4c46182", "photo-1550537687-c91072c4792d", "photo-1550537687-c91072c4792e"
+    ]
+  },
+  {
+    name: "Epic Flame Samurai",
+    tags: ["samurai", "anime", "action", "epic", "combat"],
+    prompt: "Dynamic combat pose of a dual-wielding fire samurai, legendary glowing crimson flames trailing his blades, ink wash splatter art, splash artwork, high velocity action pose, epic fantasy concept art --ar 9:16",
+    ids: [
+      "photo-1548102245-c7bf7c569ff4", "photo-1509114397022-ed747cca3f65", "photo-1600585154340-be6161a56a0c",
+      "photo-1486915309851-b0cc1f8a0084", "photo-1534447677768-be436bb09401", "photo-1518709268805-4e9042af9f23",
+      "photo-1578632767115-351597cf2477", "photo-1509114397022-ed747cca3f66", "photo-1509114397022-ed747cca3f67"
+    ]
+  },
+  {
+    name: "Luxury Elite Lifestyle",
+    tags: ["luxury", "car", "yacht", "rich", "mansion"],
+    prompt: "Super sleek million-dollar hypercar resting infront of an ultra-modern steel & glass architectural villa at sunset, quiet pool reflections, cinematic high-class lifestyle wallpaper, 8k --ar 9:16",
+    ids: [
+      "photo-1525609004556-c46c7d6cf0a3", "photo-1567899378494-47b22a2ae96a", "photo-1546182990-dffeafbe841d",
+      "photo-1540962351504-03099e0a754b", "photo-1614162692292-7ac56d7f7f1e", "photo-1600585154340-be6161a56a0c",
+      "photo-1512917774080-9991f1c4c750", "photo-1505691938895-1758d7feb511", "photo-1505691938895-1758d7feb512"
+    ]
+  }
+];
+
+const generateWallpapers = (): TrendingPrompt[] => {
+  const seededWallpapers: TrendingPrompt[] = [];
+  const totalTarget = 295;
+  for (let i = 1; i <= totalTarget; i++) {
+    const theme = WALLPAPER_THEMES[(i - 1) % WALLPAPER_THEMES.length];
+    const idSuffix = theme.ids[(i - 1) % theme.ids.length];
+    const imageUrl = `https://images.unsplash.com/${idSuffix}?auto=format&fit=crop&w=640&h=1136&q=80`;
+    
+    seededWallpapers.push({
+      id: `wallpaper-seed-${i}`,
+      title: `${theme.name} #${Math.ceil(i / WALLPAPER_THEMES.length)}`,
+      promptText: theme.prompt,
+      imageUrl: imageUrl,
+      category: "AI Wallpapers",
+      likes: Math.floor(Math.sin(i) * 200) + 250,
+      tags: [...theme.tags, "wallpaper", "viral", "4k"]
+    });
+  }
+  return seededWallpapers;
+};
+
+const repairPromptItem = (p: any): TrendingPrompt => {
+  let imageUrl = p.imageUrl || "";
+  
+  if (!imageUrl || imageUrl.includes("picsum.photos")) {
+    const category = p.category || "AI Fantasy Art";
+    let fallbackId = "photo-1579783900882-c0d3dad7b119";
+    if (category === "Cinematic Portraits") {
+      fallbackId = "photo-1509631179647-0177331693ae";
+    } else if (category === "AI Fantasy Art") {
+      fallbackId = "photo-1518709268805-4e9042af9f23";
+    } else if (category === "Couple & Love Aesthetic") {
+      fallbackId = "photo-1516589178581-6cd7833ae3b2";
+    } else if (category === "Travel & Nature") {
+      fallbackId = "photo-1469474968028-56623f02e42e";
+    } else if (category === "Luxury Lifestyle") {
+      fallbackId = "photo-1614162692292-7ac56d7f7f1e";
+    } else if (category === "Motivational & Success") {
+      fallbackId = "photo-1506126613408-eca07ce68773";
+    } else if (category === "Devotional & Spiritual") {
+      fallbackId = "photo-1609137144813-f93fb2380584";
+    } else if (category === "Viral Poster Designs") {
+      fallbackId = "photo-1561070791-2526d30994b5";
+    } else if (category === "Food Photography") {
+      fallbackId = "photo-1476224203421-9ac39bcb3327";
+    } else if (category === "Future & Sci-Fi") {
+      fallbackId = "photo-1511512578047-dfb367046420";
+    } else if (category === "AI Wallpapers") {
+      fallbackId = "photo-1419242902214-272b3f66ee7a";
+    }
+    
+    imageUrl = `https://images.unsplash.com/${fallbackId}?auto=format&fit=crop&w=800&q=80`;
+  }
+  
+  return {
+    id: p.id,
+    title: p.title || "Unnamed Reference",
+    promptText: p.promptText || p.prompt || "Perfect high aesthetic details, cinematic masterpiece, highly detailed",
+    imageUrl: imageUrl,
+    category: p.category || "AI Fantasy Art",
+    likes: typeof p.likes === 'number' ? p.likes : 120,
+    tags: Array.isArray(p.tags) ? p.tags : ["creative", "midjourney"]
+  };
+};
+
+const repairAndSeedPrompts = (rawPrompts: any[]): TrendingPrompt[] => {
+  const seededWallpapers = generateWallpapers();
+  const otherItems = Array.isArray(rawPrompts) ? rawPrompts.filter(p => {
+    if (!p) return false;
+    if (p.category === "AI Wallpapers" && p.id && p.id.startsWith("wallpaper-seed-")) {
+      return false;
+    }
+    return true;
+  }) : [];
+  
+  const repairedOtherItems = otherItems.map(repairPromptItem);
+  return [...seededWallpapers, ...repairedOtherItems];
+};
+
 interface PromptGalleryProps {
   answers: UserAnswers;
   onReset: () => void;
@@ -70,13 +242,13 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
       try {
         const parsed = JSON.parse(localData);
         if (parsed && Array.isArray(parsed) && parsed.length > 0) {
-          return parsed;
+          return repairAndSeedPrompts(parsed);
         }
       } catch (err) {
         console.error('Failed to parse local prompts dataset cache', err);
       }
     }
-    return initialPrompts as TrendingPrompt[];
+    return repairAndSeedPrompts(initialPrompts as TrendingPrompt[]);
   });
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -86,7 +258,7 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
 
   // Pagination State
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = selectedCategory === 'AI Wallpapers' ? 24 : 12;
+  const itemsPerPage = 5;
 
   // Form state
   const [showAddForm, setShowAddForm] = useState(false);
@@ -131,8 +303,9 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
       const res = await fetch('/api/prompts');
       if (res.ok) {
         const data = await res.json();
-        setPrompts(data);
-        localStorage.setItem('mdlabs_prompts_db', JSON.stringify(data));
+        const repaired = repairAndSeedPrompts(data);
+        setPrompts(repaired);
+        localStorage.setItem('mdlabs_prompts_db', JSON.stringify(repaired));
       } else {
         throw new Error('API returned error status');
       }
@@ -143,7 +316,8 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
         try {
           const parsed = JSON.parse(localData);
           if (parsed && Array.isArray(parsed) && parsed.length > 0) {
-            setPrompts(parsed);
+            const repaired = repairAndSeedPrompts(parsed);
+            setPrompts(repaired);
             return;
           }
         } catch (err) {
@@ -151,8 +325,9 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
         }
       }
       // If local storage is empty, initialize with pre-seeded database
-      setPrompts(initialPrompts as TrendingPrompt[]);
-      localStorage.setItem('mdlabs_prompts_db', JSON.stringify(initialPrompts));
+      const repaired = repairAndSeedPrompts(initialPrompts as TrendingPrompt[]);
+      setPrompts(repaired);
+      localStorage.setItem('mdlabs_prompts_db', JSON.stringify(repaired));
     }
   };
 
