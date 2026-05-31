@@ -1,5 +1,6 @@
 import { useState, useEffect, FormEvent, MouseEvent } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+import initialPrompts from '../../prompts-data.json';
 import { 
   UserAnswers, 
   TrendingPrompt 
@@ -63,7 +64,20 @@ interface PromptGalleryProps {
 }
 
 export default function PromptGallery({ answers, onReset }: PromptGalleryProps) {
-  const [prompts, setPrompts] = useState<TrendingPrompt[]>([]);
+  const [prompts, setPrompts] = useState<TrendingPrompt[]>(() => {
+    const localData = localStorage.getItem('mdlabs_prompts_db');
+    if (localData) {
+      try {
+        const parsed = JSON.parse(localData);
+        if (parsed && Array.isArray(parsed) && parsed.length > 0) {
+          return parsed;
+        }
+      } catch (err) {
+        console.error('Failed to parse local prompts dataset cache', err);
+      }
+    }
+    return initialPrompts as TrendingPrompt[];
+  });
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
   
@@ -118,43 +132,91 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
       if (res.ok) {
         const data = await res.json();
         setPrompts(data);
+        localStorage.setItem('mdlabs_prompts_db', JSON.stringify(data));
+      } else {
+        throw new Error('API returned error status');
       }
     } catch (e) {
-      console.error('Failed to fetch cached prompts from backend database', e);
+      console.warn('API fetch not available, loading from local storage/preset fallback', e);
+      const localData = localStorage.getItem('mdlabs_prompts_db');
+      if (localData) {
+        try {
+          const parsed = JSON.parse(localData);
+          if (parsed && Array.isArray(parsed) && parsed.length > 0) {
+            setPrompts(parsed);
+            return;
+          }
+        } catch (err) {
+          console.error('Failed to parse local prompts dataset cache', err);
+        }
+      }
+      // If local storage is empty, initialize with pre-seeded database
+      setPrompts(initialPrompts as TrendingPrompt[]);
+      localStorage.setItem('mdlabs_prompts_db', JSON.stringify(initialPrompts));
     }
   };
 
   const handleAddPrompt = async (e: FormEvent) => {
     e.preventDefault();
 
-    // Allow empty values directly down to backend of MDlabs image and prompt places
     const finalImageUrl = newImageUrl.trim();
     const finalPromptText = newPromptText.trim();
     const tagsArray = newTags ? newTags.split(',').map(t => t.trim()).filter(Boolean) : [newCategory.toLowerCase(), 'creative'];
 
+    const newPromptObject: TrendingPrompt = {
+      id: `prompt-client-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
+      title: newTitle.trim() || `Prompt #${prompts.length + 1}`,
+      promptText: finalPromptText,
+      imageUrl: finalImageUrl,
+      category: newCategory,
+      likes: 0,
+      tags: tagsArray
+    };
+
+    // Optimistically update local React state and cache first
+    setPrompts(prev => {
+      const updated = [newPromptObject, ...prev];
+      localStorage.setItem('mdlabs_prompts_db', JSON.stringify(updated));
+      return updated;
+    });
+
+    setMyUploadedPromptIds(prev => {
+      const updated = [...prev, newPromptObject.id];
+      localStorage.setItem('mdlabs_my_prompt_ids', JSON.stringify(updated));
+      return updated;
+    });
+
+    // Attempt backend sync, if a backend exists
     try {
       const res = await fetch('/api/prompts', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          title: newTitle.trim() || `Prompt #${prompts.length + 1}`,
-          promptText: finalPromptText,
-          imageUrl: finalImageUrl,
-          category: newCategory,
-          tags: tagsArray
+          title: newPromptObject.title,
+          promptText: newPromptObject.promptText,
+          imageUrl: newPromptObject.imageUrl,
+          category: newPromptObject.category,
+          tags: newPromptObject.tags
         })
       });
       if (res.ok) {
         const createdPrompt = await res.json();
+        // SWAP client id with database id
+        setPrompts(prev => {
+          const filtered = prev.filter(p => p.id !== newPromptObject.id);
+          const updated = [createdPrompt, ...filtered];
+          localStorage.setItem('mdlabs_prompts_db', JSON.stringify(updated));
+          return updated;
+        });
         setMyUploadedPromptIds(prev => {
-          const updated = [...prev, createdPrompt.id];
+          const filtered = prev.filter(id => id !== newPromptObject.id);
+          const updated = [...filtered, createdPrompt.id];
           localStorage.setItem('mdlabs_my_prompt_ids', JSON.stringify(updated));
           return updated;
         });
-        await fetchPrompts();
       }
     } catch (err) {
-      console.error('Failed to create new prompt on backend', err);
+      console.warn('Backend API has not registered the addition, prompt is kept 100% locally', err);
     }
     
     // Reset form
@@ -168,35 +230,45 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
 
   const handleDeletePrompt = async (id: string, e: MouseEvent) => {
     e.stopPropagation();
+
+    // Optimistically delete from UI and local storage
+    setPrompts(prev => {
+      const updated = prev.filter(item => item.id !== id);
+      localStorage.setItem('mdlabs_prompts_db', JSON.stringify(updated));
+      return updated;
+    });
+
+    setMyUploadedPromptIds(prev => {
+      const updated = prev.filter(item => item !== id);
+      localStorage.setItem('mdlabs_my_prompt_ids', JSON.stringify(updated));
+      return updated;
+    });
+
     try {
-      const res = await fetch(`/api/prompts/${id}`, {
+      await fetch(`/api/prompts/${id}`, {
         method: 'DELETE'
       });
-      if (res.ok) {
-        setMyUploadedPromptIds(prev => {
-          const updated = prev.filter(item => item !== id);
-          localStorage.setItem('mdlabs_my_prompt_ids', JSON.stringify(updated));
-          return updated;
-        });
-        await fetchPrompts();
-      }
     } catch (err) {
-      console.error('Failed to delete prompt from backend', err);
+      console.warn('Backend API delete failed, kept local deletions only', err);
     }
   };
 
   const handleLikePrompt = async (id: string, e: MouseEvent) => {
     e.stopPropagation();
+
+    // Optimistically increment likes in local UI and cache
+    setPrompts(prev => {
+      const updated = prev.map(p => p.id === id ? { ...p, likes: p.likes + 1 } : p);
+      localStorage.setItem('mdlabs_prompts_db', JSON.stringify(updated));
+      return updated;
+    });
+
     try {
-      const res = await fetch(`/api/prompts/${id}/like`, {
+      await fetch(`/api/prompts/${id}/like`, {
         method: 'POST'
       });
-      if (res.ok) {
-        // Increment likes optimistically client-side
-        setPrompts(prev => prev.map(p => p.id === id ? { ...p, likes: p.likes + 1 } : p));
-      }
     } catch (err) {
-      console.error('Failed to register like on backend', err);
+      console.warn('Backend API like failed, increment saved locally', err);
     }
   };
 
@@ -549,50 +621,46 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
                     <div className={`${p.category === 'AI Wallpapers' ? 'p-3' : 'p-4'} flex-1 flex flex-col justify-between`}>
                       <div>
                         {/* Sub-tags */}
-                        {p.category !== 'AI Wallpapers' && (
-                          <div className="flex flex-wrap gap-1 mb-3">
-                            {p.tags.map((tag) => (
-                              <span key={tag} className="text-[10px] bg-slate-50 border border-slate-100 text-slate-500 py-0.5 px-2 rounded-md">
-                                #{tag}
-                              </span>
-                            ))}
-                          </div>
-                        )}
+                        <div className="flex flex-wrap gap-1 mb-3">
+                          {p.tags.map((tag) => (
+                            <span key={tag} className="text-[10px] bg-slate-50 border border-slate-100 text-slate-500 py-0.5 px-2 rounded-md">
+                              #{tag}
+                            </span>
+                          ))}
+                        </div>
 
                         {/* Prompt area */}
-                        {p.category !== 'AI Wallpapers' && (
-                          <div className="bg-slate-50 rounded-xl p-3 border border-slate-100 relative group/prompt hover:bg-slate-100/50 transition duration-200 min-h-[72px] flex flex-col justify-center">
-                            <span className="text-[9px] font-mono tracking-wider font-semibold text-indigo-500 block mb-1 font-sans">
-                              PROMPT STRUCTURE:
-                            </span>
-                            {p.promptText ? (
-                              <p className="font-mono text-[11px] text-slate-700 leading-relaxed max-h-24 overflow-y-auto break-words select-all">
-                                {p.promptText}
-                              </p>
+                        <div className="bg-slate-50 rounded-xl p-3 border border-slate-100 relative group/prompt hover:bg-slate-100/50 transition duration-200 min-h-[72px] flex flex-col justify-center">
+                          <span className="text-[9px] font-mono tracking-wider font-semibold text-indigo-500 block mb-1 font-sans">
+                            PROMPT STRUCTURE:
+                          </span>
+                          {p.promptText ? (
+                            <p className="font-mono text-[11px] text-slate-700 leading-relaxed max-h-24 overflow-y-auto break-words select-all">
+                              {p.promptText}
+                            </p>
+                          ) : (
+                            <p className="font-mono text-[10px] text-slate-400 italic">
+                              Empty Prompt Slot
+                            </p>
+                          )}
+                          
+                          <button
+                            onClick={() => handleCopyToClipboard(p.id, p.promptText)}
+                            className="absolute bottom-2 right-2 p-1.5 rounded-lg bg-white border border-slate-200 shadow-xs hover:shadow-sm text-slate-500 hover:text-slate-800 transition flex items-center gap-1 cursor-pointer"
+                          >
+                            {copiedId === p.id ? (
+                              <>
+                                <Check className="w-3.5 h-3.5 text-emerald-500" />
+                                <span className="text-[9px] font-semibold text-emerald-600">Copied</span>
+                              </>
                             ) : (
-                              <p className="font-mono text-[10px] text-slate-400 italic">
-                                Empty Prompt Slot
-                              </p>
+                              <>
+                                <Copy className="w-3.5 h-3.5" />
+                                <span className="text-[9px] font-semibold">Copy Formula</span>
+                              </>
                             )}
-                            
-                            <button
-                              onClick={() => handleCopyToClipboard(p.id, p.promptText)}
-                              className="absolute bottom-2 right-2 p-1.5 rounded-lg bg-white border border-slate-200 shadow-xs hover:shadow-sm text-slate-500 hover:text-slate-800 transition flex items-center gap-1 cursor-pointer"
-                            >
-                              {copiedId === p.id ? (
-                                <>
-                                  <Check className="w-3.5 h-3.5 text-emerald-500" />
-                                  <span className="text-[9px] font-semibold text-emerald-600">Copied</span>
-                                </>
-                              ) : (
-                                <>
-                                  <Copy className="w-3.5 h-3.5" />
-                                  <span className="text-[9px] font-semibold">Copy Formula</span>
-                                </>
-                              )}
-                            </button>
-                          </div>
-                        )}
+                          </button>
+                        </div>
                       </div>
 
                       {/* Footer social stats */}
@@ -715,7 +783,7 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
                   {selectedPreviewImage.title}
                 </h3>
                 
-                {selectedPreviewImage.category !== 'AI Wallpapers' && selectedPreviewImage.promptText ? (
+                {selectedPreviewImage.promptText ? (
                   <div className="mt-3 text-left">
                     <span className="text-[9px] font-mono tracking-wider font-semibold text-slate-400 block mb-1">
                       COPYABLE FORMULA:
@@ -724,9 +792,9 @@ export default function PromptGallery({ answers, onReset }: PromptGalleryProps) 
                       {selectedPreviewImage.promptText}
                     </p>
                   </div>
-                ) : selectedPreviewImage.category !== 'AI Wallpapers' ? (
+                ) : (
                   <p className="text-xs text-slate-400 italic mt-2">No prompt formula registered for this reference image</p>
-                ) : null}
+                )}
               </div>
             </motion.div>
           </motion.div>
